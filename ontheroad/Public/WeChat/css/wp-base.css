@@ -1,0 +1,143 @@
+@import url("iconfont.css");
+/*body{*/
+    /*background-color: #d0cdcd !important;*/
+/*}*/
+
+.wp-bg-silver{
+    background-color:  #d0cdcd !important;
+}
+
+header{
+    display: table;
+    background-color: white;
+    text-align: center;
+    position: fixed;width: 100%;
+    z-index: 1024;top: 0;
+    border-bottom: 1px solid #dddddd;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+header .header-btn{
+    color: #039be5;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+header .header-left{
+    text-align:left;
+}
+
+header .header-right{
+    text-align:right;
+}
+
+header a span{
+    color: #000000 !important;
+}
+
+header div{
+    color: #000000;
+}
+
+#content{
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+footer{
+    border-top: 1px solid #dddddd;
+}
+
+.wp-btn:active{
+    opacity: 0.3;
+}
+
+.wp-text-align-center{
+    text-align: center;
+}
+
+.wp-font-weigh-bold{
+    font-weight: bold;
+}
+
+.wp-width-100-percent{
+    width: 100%;
+}
+
+.wp-width-50-percent{
+    width: 50%;
+}
+
+.wp-margin-t-15{
+    margin-top: 15px;
+}
+
+.wp-margin-b-15{
+    margin-bottom: 15px;
+}
+
+.wp-margin-t-30{
+    margin-top: 30px;
+}
+.wp-margin-a-15-px{
+    margin: 15px !important;
+}
+
+.wp-margin-r-15-px{
+   margin-right: 15px;
+}
+
+.wp-margin-l-15-px{
+    margin-left: 15px;
+}
+
+.wp-margin-r-20-percent{
+     margin-right: 20%;
+ }
+.wp-margin-l-20-percent{
+    margin-left: 20%;
+}
+.wp-pandding-l-20-percent{
+    padding-left: 10%;
+}
+.wp-pandding-r-20-percent{
+    padding-right:10%;
+}
+.wp-pandding-l-15{
+    padding-left: 15px;
+}
+.wp-pandding-r-15{
+   padding-right: 15px;
+}
+.wp-pandding-t-15{
+    padding-top: 15px;
+}
+.wp-pandding-b-15{
+    padding-bottom: 15px;
+}
+.wp-pandding-a-15{
+    padding: 15px;
+}
+.wp-bg-white{
+    background-color: white;
+}
+
+.wp-border-radius-5{
+    border-radius:5px;
+}
+.wp-clear-both{
+    clear: both;
+}
+
+/*注册输入框样式*/
+.regist-input{
+    /*border-radius: 5px !important;*/
+    border-bottom: 1px solid #000000 !important;
+}
+
+.wp-kindeditor-content img{
+    max-width: 100% !important;
+    height: auto !important;
+}

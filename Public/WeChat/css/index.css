@@ -1,0 +1,26 @@
+.wp-header{
+    background: rgba(255,255,255,0.5);
+    height: 48px;
+    border-bottom: 0px solid #dddddd
+}
+
+header > img{
+    height: 42px;
+}
+
+.wp-car-list{
+    margin-top: 10px;
+}
+.wp-car-list-item{
+    background-color: white;
+    margin-bottom: 10px;
+}
+.wp-car-list-item-titel{
+    padding-left: 5px;
+    font-size: 16px;
+}
+
+.wp-car-list-item-describe{
+    font-size: 12px;
+    padding-left: 5px;
+}

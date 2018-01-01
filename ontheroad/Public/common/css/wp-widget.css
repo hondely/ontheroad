@@ -1,0 +1,40 @@
+﻿.wp-widget{
+
+}
+
+.wp-widget-header{
+    padding: 6px;
+    min-height: 24px;
+    background-color: #11a9cc!important;
+    border-bottom: 3px solid #FFFFFF;
+}
+
+.wp-widget-caption{
+    padding-left: 6px;
+    color: white;
+    font-weight: bold;
+}
+
+.wp-widget-body{
+
+}
+
+.wp-widget-row{
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.wp-widget-row:after{
+    clear: both;
+    content:" "
+}
+
+.wp-widget-row label{
+    float: left;
+    width: 20%;
+}
+
+.wp-widget-row div{
+    float: left;
+    width: 80%;
+}

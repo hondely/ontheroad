@@ -1,0 +1,739 @@
+[ 2017-05-17T00:42:18+08:00 ] 101.226.69.246 /ontheroad/index.php/WeChat/index/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002247s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined variable: option C:\wamp\www\ontheroad\Application\WeChat\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `d_banner` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `d_banner`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000406s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\d453fe74c97b8a75ebccd62a8fc05b53.php 第 89 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\d453fe74c97b8a75ebccd62a8fc05b53.php 第 94 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\d453fe74c97b8a75ebccd62a8fc05b53.php 第 99 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\d453fe74c97b8a75ebccd62a8fc05b53.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085534s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001929s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002148s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002394s ]
+
+[ 2017-05-17T00:44:30+08:00 ] 117.172.24.148 /ontheroad/index.php/WeChat/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000945s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002229s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_banner` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `d_banner`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `d_room_type` [ RunTime:0.0166s ]
+SQL: SELECT * FROM `d_room_type` WHERE ( state=1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000405s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 131 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 136 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 141 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039348s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001867s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002132s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002382s ]
+
+[ 2017-05-17T00:45:05+08:00 ] 117.172.24.148 /ontheroad/index.php/WeChat/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002012s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_banner` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `d_banner`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `d_room_type` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `d_room_type` WHERE ( state=1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000398s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 131 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 136 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 141 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059590s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059842s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003724s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003950s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001932s ]
+
+[ 2017-05-17T00:45:14+08:00 ] 101.226.66.192 /ontheroad/index.php/WeChat/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002057s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_banner` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `d_banner`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `d_room_type` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `d_room_type` WHERE ( state=1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000412s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 131 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 136 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 141 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030434s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030673s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002765s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002990s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002019s ]
+
+[ 2017-05-17T00:45:15+08:00 ] 117.173.212.122 /ontheroad/index.php/WeChat/MyCenter/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003332s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000417s ]
+NOTIC: [8] Undefined variable: userInfo C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 21 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 166 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 171 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 176 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 181 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024979s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002341s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002293s ]
+
+[ 2017-05-17T00:45:24+08:00 ] 101.226.68.213 /ontheroad/index.php/WeChat/MyCenter/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000938s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002114s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000414s ]
+NOTIC: [8] Undefined variable: userInfo C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 21 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 166 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 171 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 176 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 181 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020541s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020908s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002135s ]
+
+[ 2017-05-17T00:53:01+08:00 ] 117.173.212.122 /ontheroad/index.php/WeChat/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001982s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_banner` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `d_banner`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `d_room_type` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `d_room_type` WHERE ( state=1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000399s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 131 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 136 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 141 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028051s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001980s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001743s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001990s ]
+
+[ 2017-05-17T00:53:03+08:00 ] 117.173.212.122 /ontheroad/index.php/WeChat/MyCenter/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000818s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001982s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000439s ]
+NOTIC: [8] Undefined variable: userInfo C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 21 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 166 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 171 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 176 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 181 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020818s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021175s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001508s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001735s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001779s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002013s ]
+
+[ 2017-05-17T00:54:14+08:00 ] 120.92.32.174 /ontheroad/index.php/WeChat/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002865s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_banner` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `d_banner`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `d_room_type` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `d_room_type` WHERE ( state=1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000387s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 131 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 136 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 141 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026674s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026915s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001780s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001745s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001977s ]
+
+[ 2017-05-17T00:55:25+08:00 ] 117.173.212.122 /ontheroad/index.php/WeChat/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002757s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined variable: option C:\wamp\www\ontheroad\Application\WeChat\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `d_banner` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `d_banner`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000395s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 89 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 94 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 99 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020994s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021229s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001680s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003721s ]
+
+[ 2017-05-17T00:55:27+08:00 ] 117.173.212.122 /ontheroad/index.php/WeChat/Regist/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002005s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] include(../lib/WxPay.Api.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\WxPay.JsApiPay.php 第 2 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '../lib/WxPay.Api.php' for inclusion (include_path='.;C:\php\pear') C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\WxPay.JsApiPay.php 第 2 行.
+NOTIC: [2] include(../lib/WxPay.Notify.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\notify.php 第 9 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '../lib/WxPay.Notify.php' for inclusion (include_path='.;C:\php\pear') C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\notify.php 第 9 行.
+
+[ 2017-05-17T00:55:39+08:00 ] 117.172.24.148 /ontheroad/index.php/WeChat/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000881s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003313s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_banner` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `d_banner`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `d_room_type` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `d_room_type` WHERE ( state=1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000401s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 131 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 136 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 141 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026516s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026768s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001658s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002007s ]
+
+[ 2017-05-17T00:55:42+08:00 ] 117.172.24.148 /ontheroad/index.php/WeChat/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000896s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001986s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined variable: option C:\wamp\www\ontheroad\Application\WeChat\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `d_banner` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `d_banner`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000383s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 89 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 94 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 99 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021294s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001733s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001807s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002035s ]
+
+[ 2017-05-17T00:55:44+08:00 ] 117.172.24.148 /ontheroad/index.php/WeChat/Regist/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000834s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002063s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] include(../lib/WxPay.Api.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\WxPay.JsApiPay.php 第 2 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '../lib/WxPay.Api.php' for inclusion (include_path='.;C:\php\pear') C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\WxPay.JsApiPay.php 第 2 行.
+NOTIC: [2] include(../lib/WxPay.Notify.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\notify.php 第 9 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '../lib/WxPay.Notify.php' for inclusion (include_path='.;C:\php\pear') C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\notify.php 第 9 行.
+
+[ 2017-05-17T00:55:48+08:00 ] 117.172.24.148 /ontheroad/index.php/WeChat/Regist/Index.html?code=002vKTEX1ICD2V0kKSDX1c6REX1vKTEb&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001985s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] include(../lib/WxPay.Api.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\WxPay.JsApiPay.php 第 2 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '../lib/WxPay.Api.php' for inclusion (include_path='.;C:\php\pear') C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\WxPay.JsApiPay.php 第 2 行.
+NOTIC: [2] include(../lib/WxPay.Notify.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\notify.php 第 9 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '../lib/WxPay.Notify.php' for inclusion (include_path='.;C:\php\pear') C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\notify.php 第 9 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000400s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035583s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035861s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001568s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001796s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001997s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002277s ]
+
+[ 2017-05-17T00:55:52+08:00 ] 101.226.66.178 /ontheroad/index.php/WeChat/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000807s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002613s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined variable: option C:\wamp\www\ontheroad\Application\WeChat\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `d_banner` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `d_banner`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000408s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 89 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 94 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 99 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022287s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022524s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002320s ]
+
+[ 2017-05-17T00:55:54+08:00 ] 101.226.66.178 /ontheroad/index.php/WeChat/Regist/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002225s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] include(../lib/WxPay.Api.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\WxPay.JsApiPay.php 第 2 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '../lib/WxPay.Api.php' for inclusion (include_path='.;C:\php\pear') C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\WxPay.JsApiPay.php 第 2 行.
+NOTIC: [2] include(../lib/WxPay.Notify.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\notify.php 第 9 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '../lib/WxPay.Notify.php' for inclusion (include_path='.;C:\php\pear') C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\notify.php 第 9 行.
+
+[ 2017-05-17T00:55:54+08:00 ] 180.153.214.190 /ontheroad/index.php/WeChat/Regist/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005487s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] include(../lib/WxPay.Api.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\WxPay.JsApiPay.php 第 2 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '../lib/WxPay.Api.php' for inclusion (include_path='.;C:\php\pear') C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\WxPay.JsApiPay.php 第 2 行.
+NOTIC: [2] include(../lib/WxPay.Notify.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\notify.php 第 9 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '../lib/WxPay.Notify.php' for inclusion (include_path='.;C:\php\pear') C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\notify.php 第 9 行.
+
+[ 2017-05-17T00:55:54+08:00 ] 101.226.33.205 /ontheroad/index.php/WeChat/Regist/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003967s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] include(../lib/WxPay.Api.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\WxPay.JsApiPay.php 第 2 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '../lib/WxPay.Api.php' for inclusion (include_path='.;C:\php\pear') C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\WxPay.JsApiPay.php 第 2 行.
+NOTIC: [2] include(../lib/WxPay.Notify.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\notify.php 第 9 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '../lib/WxPay.Notify.php' for inclusion (include_path='.;C:\php\pear') C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\notify.php 第 9 行.
+
+[ 2017-05-17T00:55:54+08:00 ] 101.226.89.119 /ontheroad/index.php/WeChat/Regist/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004546s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] include(../lib/WxPay.Api.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\WxPay.JsApiPay.php 第 2 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '../lib/WxPay.Api.php' for inclusion (include_path='.;C:\php\pear') C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\WxPay.JsApiPay.php 第 2 行.
+NOTIC: [2] include(../lib/WxPay.Notify.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\notify.php 第 9 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '../lib/WxPay.Notify.php' for inclusion (include_path='.;C:\php\pear') C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\notify.php 第 9 行.
+
+[ 2017-05-17T00:55:54+08:00 ] 101.226.33.208 /ontheroad/index.php/WeChat/Regist/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001875s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] include(../lib/WxPay.Api.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\WxPay.JsApiPay.php 第 2 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '../lib/WxPay.Api.php' for inclusion (include_path='.;C:\php\pear') C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\WxPay.JsApiPay.php 第 2 行.
+NOTIC: [2] include(../lib/WxPay.Notify.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\notify.php 第 9 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '../lib/WxPay.Notify.php' for inclusion (include_path='.;C:\php\pear') C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\notify.php 第 9 行.
+
+[ 2017-05-17T00:55:55+08:00 ] 101.226.89.122 /ontheroad/index.php/WeChat/Regist/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001990s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] include(../lib/WxPay.Api.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\WxPay.JsApiPay.php 第 2 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '../lib/WxPay.Api.php' for inclusion (include_path='.;C:\php\pear') C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\WxPay.JsApiPay.php 第 2 行.
+NOTIC: [2] include(../lib/WxPay.Notify.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\notify.php 第 9 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '../lib/WxPay.Notify.php' for inclusion (include_path='.;C:\php\pear') C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\notify.php 第 9 行.
+
+[ 2017-05-17T00:56:56+08:00 ] 117.172.24.148 /ontheroad/index.php/WeChat/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001949s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_banner` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `d_banner`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `d_room_type` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `d_room_type` WHERE ( state=1 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000396s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 131 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 136 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 141 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025639s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001659s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002164s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002401s ]
+
+[ 2017-05-17T00:56:59+08:00 ] 117.172.24.148 /ontheroad/index.php/WeChat/MyCenter/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002468s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000403s ]
+NOTIC: [8] Undefined variable: userInfo C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 21 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 166 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 171 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 176 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 181 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019298s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001750s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001990s ]
+
+[ 2017-05-17T00:57:05+08:00 ] 101.226.61.206 /ontheroad/index.php/WeChat/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001951s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_banner` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `d_banner`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_room_type` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `d_room_type` WHERE ( state=1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000400s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 131 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 136 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 141 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025417s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025656s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001950s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002196s ]
+
+[ 2017-05-17T01:05:38+08:00 ] 117.172.24.148 /ontheroad/index.php/WeChat/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000887s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002390s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined variable: option C:\wamp\www\ontheroad\Application\WeChat\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `d_banner` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `d_banner`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000397s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 89 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 94 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 99 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020977s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021212s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001397s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002071s ]
+
+[ 2017-05-17T01:05:40+08:00 ] 117.172.24.148 /ontheroad/index.php/WeChat/MyCenter/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003375s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000399s ]
+NOTIC: [8] Undefined variable: userInfo C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 21 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 166 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 171 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 176 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 181 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022506s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022866s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001790s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001963s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002194s ]
+
+[ 2017-05-17T01:05:52+08:00 ] 117.172.24.148 /ontheroad/index.php/WeChat/MyCenter/indexForSingle/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000881s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002033s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_document` [ RunTime:0.0176s ]
+SQL: SELECT * FROM `d_document` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000408s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 47 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 52 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 57 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038235s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038474s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001465s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001688s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001901s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002147s ]
+
+[ 2017-05-17T01:06:02+08:00 ] 180.153.201.28 /ontheroad/index.php/WeChat/MyCenter/indexForSingle/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002396s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_document` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `d_document` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000380s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 47 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 52 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 57 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021219s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002562s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002791s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002087s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002316s ]
+
+[ 2017-05-17T01:07:44+08:00 ] 117.172.24.148 /ontheroad/index.php/WeChat/MyCenter/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002104s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000411s ]
+NOTIC: [8] Undefined variable: userInfo C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 21 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 166 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 171 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 176 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 181 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024491s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024865s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001621s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001845s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001831s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002082s ]
+
+[ 2017-05-17T01:07:46+08:00 ] 117.172.24.148 /ontheroad/index.php/WeChat/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001889s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined variable: option C:\wamp\www\ontheroad\Application\WeChat\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `d_banner` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `d_banner`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000382s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 89 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 94 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 99 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020386s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001729s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001990s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002051s ]
+

@@ -1,0 +1,54 @@
+[ 2017-05-09T00:24:34+08:00 ] 140.207.54.75 /ontheroad/index.php/API/WxPay/notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: WxPay notify start
+NOTIC: [2] include(../lib/WxPay.Api.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\WxPay.JsApiPay.php 第 2 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '../lib/WxPay.Api.php' for inclusion (include_path='.;C:\php\pear') C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\WxPay.JsApiPay.php 第 2 行.
+NOTIC: [2] include(../lib/WxPay.Notify.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\notify.php 第 9 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '../lib/WxPay.Notify.php' for inclusion (include_path='.;C:\php\pear') C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\notify.php 第 9 行.
+INFO: WxPay notify end
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001012s ]
+
+[ 2017-05-09T00:54:35+08:00 ] 140.207.54.75 /ontheroad/index.php/API/WxPay/notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: WxPay notify start
+NOTIC: [2] include(../lib/WxPay.Api.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\WxPay.JsApiPay.php 第 2 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '../lib/WxPay.Api.php' for inclusion (include_path='.;C:\php\pear') C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\WxPay.JsApiPay.php 第 2 行.
+NOTIC: [2] include(../lib/WxPay.Notify.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\notify.php 第 9 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '../lib/WxPay.Notify.php' for inclusion (include_path='.;C:\php\pear') C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\notify.php 第 9 行.
+INFO: WxPay notify end
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000729s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000961s ]
+
+[ 2017-05-09T01:54:39+08:00 ] 140.207.54.74 /ontheroad/index.php/API/WxPay/notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002236s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: WxPay notify start
+NOTIC: [2] include(../lib/WxPay.Api.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\WxPay.JsApiPay.php 第 2 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '../lib/WxPay.Api.php' for inclusion (include_path='.;C:\php\pear') C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\WxPay.JsApiPay.php 第 2 行.
+NOTIC: [2] include(../lib/WxPay.Notify.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\notify.php 第 9 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '../lib/WxPay.Notify.php' for inclusion (include_path='.;C:\php\pear') C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\notify.php 第 9 行.
+INFO: WxPay notify end
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002308s ]
+

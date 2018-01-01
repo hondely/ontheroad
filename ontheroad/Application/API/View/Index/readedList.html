@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>广州电力机车有限公司</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <style>
+        ul{
+            list-style-type:none;
+            padding-left:0px;
+        }
+        ul li:active{
+            opacity: 0.3;
+        }
+        ul li:hover{
+            cursor: pointer;
+        }
+        li{
+            border-bottom: 1px solid #000000;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .titel{
+            /*font-size: 16px;*/
+            font-weight: bold;
+        }
+
+        .info{
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div style="display:none;">
+    {$table}
+</div>
+
+<div id="content">
+    <ul >
+        <li onclick="detail()">
+            <div class="titel">关于填报企业在用、在建信息系统的通知</div>
+            <div class="info">[通知管理]    综合管理部（党群工作部)</div>
+        </li>
+        <li >
+            <div  class="titel"> 关于印发《广州电力机车有限公司2016年度共青团工作要点》的通知</div>
+            <div class="info">[发文管理]    人力资源</div>
+        </li>
+    </ul>
+</div>
+
+<script type="text/javascript" src="__PUBLIC__/Admin/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/OA/js/api.js"></script>
+
+<script type="text/javascript">
+
+    function detail(str)
+    {
+        api.openWin({
+            name:'news_detail_win',
+            url: './detail_win.html',
+            bounces:false,
+            slidBackEnabled:true,
+            animation:{
+                type:"push",                //动画类型（详见动画类型常量）
+                subType:"from_right",       //动画子类型（详见动画子类型常量）
+                duration:500
+            }
+        });
+    }
+
+    function getName(strs)
+    {
+        var resultStr="";
+        var length=strs.length;
+        var flage=false;
+        for(var i=0;i<length;i++){
+            if(strs[i]=='/'){
+                break;
+            }
+            if(flage){
+                resultStr+=strs[i];
+            }
+            if(strs[i]=='='){
+                flage=true;
+            }
+        }
+        return resultStr;
+    }
+
+    $("tr").each(function(index, element) {
+        var one={};
+
+        one.titel=$(this).find("td").eq(3).text();
+        one.href=$(this).find("td").eq(5).children('a').attr('href');
+        one.type=$(this).find("td").eq(5).text();
+        one.department=$(this).find("td").eq(6).text();
+        one.originator=$(this).find("td").eq(7).text();
+        one.originator=getName(one.originator);
+
+        var oneVal=one.titel+" "+one.type+" "+one.department+" "+ one.originator+" "+one.href;
+
+        var content= $('#content').html();
+        $('#content').html(content+'<br>'+oneVal);
+    });
+
+</script>
+
+
+</body>
+</html>
+

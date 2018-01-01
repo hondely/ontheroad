@@ -1,0 +1,104 @@
+[ 2018-01-01T15:12:35+08:00 ] 192.168.9.161 /ontheroad/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2018-01-01T15:12:37+08:00 ] 192.168.9.161 //ontheroad/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000055s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016368s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000263s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000284s ]
+
+[ 2018-01-01T15:12:37+08:00 ] 192.168.9.161 /ontheroad/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000412s ]
+
+[ 2018-01-01T15:12:48+08:00 ] 192.168.9.161 /ontheroad/index.php/Admin/Login/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0441s ]
+SQL: SELECT * FROM `d_manager` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `d_manager_logging` [ RunTime:0.0417s ]
+SQL: INSERT INTO `d_manager_logging` (`user`,`time`,`operation`,`ip`) VALUES ('1','2018-01-01 15:12:48','登录','192.168.9.161') [ RunTime:0.0167s ]
+
+[ 2018-01-01T15:12:48+08:00 ] 192.168.9.161 /ontheroad/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047478s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047522s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000364s ]
+
+[ 2018-01-01T15:12:49+08:00 ] 192.168.9.161 /ontheroad/index.php/Admin/Index/systemInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000265s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0143s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8192] mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Admin\Controller\IndexController.class.php 第 28 行.
+NOTIC: [2] mysql_get_server_info(): Access denied for user ''@'localhost' (using password: NO) E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Admin\Controller\IndexController.class.php 第 28 行.
+NOTIC: [2] mysql_get_server_info(): A link to the server could not be established E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Admin\Controller\IndexController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.098119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098221s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000258s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000280s ]
+

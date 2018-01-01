@@ -1,0 +1,30 @@
+
+<footer style="z-index: 4096 !important;" id="footer" class="aui-bar aui-bar-tab" >
+
+    <div onclick="wpBase.tab('Index\/index')" class="wp-btn aui-bar-tab-item <if condition='$controller eq index '>aui-active<else /> </if>">
+        <i class="aui-iconfont  aui-icon-home"></i>
+        <div class="aui-bar-tab-label">首页</div>
+    </div>
+
+    <div onclick="wpBase.tab('Order\/index')" class="wp-btn aui-bar-tab-item <if condition='$controller eq order '>aui-active<else /> </if>">
+        <i class="wp-iconfont  wp-icon-order"></i>
+        <div class="aui-bar-tab-label">旅舍预定</div>
+    </div>
+
+    <div onclick="wpBase.tab('Around\/index')" class="wp-btn aui-bar-tab-item <if condition='$controller eq around '>aui-active<else /> </if>">
+        <i class="aui-iconfont aui-icon-cart"></i>
+        <div class="aui-bar-tab-label">追梦良品</div>
+    </div>
+
+    <div onclick="wpBase.tab('MyCenter\/index')" class="wp-btn aui-bar-tab-item <if condition='$controller eq myCenter '>aui-active<else /> </if>">
+        <!--<div class="aui-badge">99</div>-->
+        <i class="aui-iconfont aui-icon-my"></i>
+        <div class="aui-bar-tab-label">会员中心</div>
+    </div>
+</footer>
+</body>
+
+<script type="text/javascript" src="__PUBLIC__/WeChat/js/aui-tab.js" ></script>
+<script type="text/javascript" src="__PUBLIC__/WeChat/js/wp-base.js" ></script>
+
+</html>

@@ -1,0 +1,70 @@
+<include file="Public:header"/>
+
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/WeChat/css/aui-slide.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/WeChat/css/index.css" />
+
+<header  style="background: rgba(255,255,255,0.5);height: 48px;border-bottom: 0px solid #dddddd">
+    <a href="{:U('Regist/Index')}" class="wp-btn header-btn header-left" >
+        <span class="aui-iconfont aui-icon-my aui-font-size-18"></span>
+    </a>
+    <img  src="__PUBLIC__/WeChat/images/IMG_1585_max.PNG">
+    <a class="wp-btn header-btn header-right" >
+        <span class="aui-iconfont aui-icon-comment aui-font-size-18"></span>
+    </a>
+</header>
+
+<div id="content"  class="aui-content aui-margin-b-15" >
+
+    <div id="aui-slide" class="wp-width-100-percent">
+        <div class="aui-slide-wrap" >
+            <volist name="bannerlist" id="vo" >
+                <div onclick="wpBase.href('{$vo.url}')" class="aui-slide-node bg-dark">
+                    <img  src="{$vo.pic}" />
+                </div>
+            </volist>
+            <!--<div onclick="wpBase.href()" class="aui-slide-node bg-dark">-->
+                <!--<img  src="__PUBLIC__/WeChat/images/l5.png" />-->
+            <!--</div>-->
+            <!--<div  class="aui-slide-node bg-dark">-->
+                <!--<img src="__PUBLIC__/WeChat/images/l6.png" />-->
+            <!--</div>-->
+            <!--<div class="aui-slide-node bg-dark">-->
+                <!--<img src="__PUBLIC__/WeChat/images/l7.png" />-->
+            <!--</div>-->
+        </div>
+        <div class="aui-slide-page-wrap"><!--分页容器--></div>
+    </div>
+
+    <div class="wp-car-list">
+        <div onclick="wpBase.tab('MyCenter\/index')" class="wp-btn wp-car-list-item" >
+                <img class="wp-width-100-percent" src="__PUBLIC__/WeChat/images/index/item1.jpg">
+                <div  class="wp-car-list-item-describe">成为追梦会员，您能够享受更多的优惠和权益！每日签到有惊喜！</div>
+                <div class="wp-car-list-item-titel">会员计划</div>
+        </div>
+
+        <div  onclick="wpBase.tab('Order\/index')" class="wp-btn wp-car-list-item" >
+            <img class="wp-width-100-percent" src="__PUBLIC__/WeChat/images/index/item2.jpg">
+            <div class="wp-car-list-item-describe">更加直接的旅舍预订方式，注册成为会员还能享受折扣优惠哦！</div>
+            <div class="wp-car-list-item-titel">旅舍预订</div>
+        </div>
+
+        <div onclick="wpBase.tab('Around\/index')"  class="wp-btn wp-car-list-item" >
+            <img class="wp-width-100-percent" src="__PUBLIC__/WeChat/images/index/item3.jpg">
+            <div class="wp-car-list-item-describe">旅行和生活，因美好而铭记。不惧风雨，继续对世界上瘾！</div>
+            <div class="wp-car-list-item-titel">追梦良品</div>
+        </div>
+
+        <div onclick="wpBase.href('MyCenter\/indexForMulti',{'type':'4','typeName':'户外路线'})"   class="wp-btn wp-car-list-item" >
+            <img class="wp-width-100-percent" src="__PUBLIC__/WeChat/images/index/item4.jpg">
+            <div class="wp-car-list-item-describe">用一颗文艺的心，感受旅途的乐趣。户外旅行我们更加专业！</div>
+            <div class="wp-car-list-item-titel">旅行线路</div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="__PUBLIC__/WeChat/js/jquery.min.js" ></script>
+<script type="text/javascript" src="__PUBLIC__/WeChat/js/aui-slide.js"></script>
+<script type="text/javascript">
+    auiSliderHeight='330px';
+</script>
+<include file="Public:footer"/>

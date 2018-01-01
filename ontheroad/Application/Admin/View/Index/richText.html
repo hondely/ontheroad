@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Sample document</title>
+    <link rel="stylesheet" href="__PUBLIC__/Admin/kindeditor/plugins/code/prettify.css" />
+</head>
+<body>
+<!--<form name="explame" method="post" action="{:U('Index/saveRichText')}">-->
+    <!--<textarea id="content" name="content" style="width:700px;height:300px;">-->
+        <!--&lt;strong&gt;HTML内容&lt;/strong&gt;-->
+    <!--</textarea>-->
+    <!--<input type="submit" name="button" value="提交内容" /> (提交快捷键: Ctrl + Enter)-->
+<!--</form>-->
+
+<textarea id="content" name="content" style="width:700px;height:300px;">
+    &lt;strong&gt;HTML内容&lt;/strong&gt;
+</textarea>
+<button class="btn btn-lg btn-danger " type="submit" onclick="submit()">提交</button>
+
+</body>
+
+
+<script charset="utf-8" src="__PUBLIC__/Admin/kindeditor/plugins/code/prettify.js"></script>
+
+<script charset="utf-8" src="__PUBLIC__/Admin/kindeditor/kindeditor-all.js"></script>
+<script charset="utf-8" src="__PUBLIC__/Admin/kindeditor/lang/zh-CN.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Admin/jquery/jquery.min.js"></script>
+<script>
+
+
+//    KindEditor.ready(function(K) {
+//        var editor1 = K.create('textarea[name="content"]', {
+//            cssPath : '__PUBLIC__/Admin/kindeditor/plugins/code/prettify.css',
+//            uploadJson :"{:U('Admin/Index/upload')}"//图片上传后的处理地址
+//        });
+//        prettyPrint();
+//    });
+
+    KindEditor.ready(function(K) {
+        window.editor = K.create('#content');
+    });
+    function submit()
+    {
+        // 取得HTML内容
+        //html = editor.html();
+//        var myhtml = K('#editor_id').val();
+        var myhtml = editor.html();
+
+        var content = ""+myhtml;
+        alert(content);
+        data = new FormData();
+        data.append("content",content);
+
+         $.ajax({
+             data: data,
+             type: "POST",
+             url: "{:U('Index/saveRichText')}",
+             cache: false,
+             contentType: false,
+             processData: false,
+             success: function(ret) {
+             //                editor.insertImage(welEditable, url);
+                alert(ret);
+             }
+         });
+    }
+</script>
+</html>

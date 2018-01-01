@@ -1,0 +1,160 @@
+<include file="Layout:header"/>
+<link rel="stylesheet" href="__PUBLIC__/Admin/IndexManage/css/style.css" />
+<link rel="stylesheet" href="__PUBLIC__/common/wpUploader/css/wp-uploader.css" />
+
+<div class="container">
+    <div class="row">
+        <ol class="breadcrumb">
+            <li >首页</li>
+            <li >首页管理</li>
+            <li>幻灯片管理</li>
+        </ol>
+    </div>
+</div>
+
+<div class="container wp-margin-bottom-50px">
+
+    <volist name="list" id="vo"  key="k">
+        <div class="row" >
+            <div class="panel-group " role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab"  class="btn btn-primary" data-toggle="collapse" data-target="#collapseOne{$k}">
+                        <h4 class="panel-title">
+                            第{$k}张幻灯片
+                        </h4>
+                    </div>
+                    <div id="collapseOne{$k}" class="panel-collapse collapse in" role="tabpane{$k}" aria-labelledby="headingOne">
+                        <div class="form-horizontal wp-margin-top-15px">
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">链接URL</label>
+                                <div class="col-sm-8">
+                                    <input id="url{$vo.id}" type="url" class="form-control" value="{$vo.url}"  placeholder="">
+                                </div>
+                                <div class="col-sm-2">
+                                    <button onclick="preview({$vo.id})" type="button" class="btn btn-info">&nbsp;&nbsp;预览&nbsp;&nbsp;</button>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label  class="col-sm-2 control-label">图片</label>
+                                <div class="col-sm-10">
+                                    <img id="pic{$vo.id}" onclick="showWpUploader({$vo.id})" class="banner-img"  src="{$vo.pic}">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label  class="col-sm-2 control-label"></label>
+                                <div class="col-sm-10">
+                                    <button type="button" onclick="save({$vo.id})" class="btn btn-danger">&nbsp;&nbsp;保存&nbsp;&nbsp;</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </volist>
+
+    <!--<div class="row " >-->
+        <!--<div class="panel-group " role="tablist" aria-multiselectable="true">-->
+            <!--<div class="panel panel-default">-->
+                <!--<div class="panel-heading" role="tab"  class="btn btn-primary" data-toggle="collapse" data-target="#collapseOne1">-->
+                    <!--<h4 class="panel-title">-->
+                        <!--第1张幻灯片-->
+                    <!--</h4>-->
+                <!--</div>-->
+                <!--<div id="collapseOne1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">-->
+                    <!--<div class="form-horizontal wp-margin-top-15px">-->
+                        <!--<div class="form-group">-->
+                            <!--<label class="col-sm-2 control-label">链接URL</label>-->
+                            <!--<div class="col-sm-8">-->
+                                <!--<input type="url" class="form-control"  placeholder="">-->
+                            <!--</div>-->
+                            <!--<div class="col-sm-2">-->
+                                <!--<button type="button" class="btn btn-info">&nbsp;&nbsp;预览&nbsp;&nbsp;</button>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="form-group">-->
+                            <!--<label  class="col-sm-2 control-label">图片</label>-->
+                            <!--<div class="col-sm-10">-->
+                                <!--<img class="banner-img"  src="__PUBLIC__/WeChat/images/l7.png">-->
+                            <!--</div>-->
+                        <!--</div>-->
+
+                        <!--<div class="form-group">-->
+                            <!--<label  class="col-sm-2 control-label"></label>-->
+                            <!--<div class="col-sm-10">-->
+                                <!--<button type="button" class="btn btn-danger">&nbsp;&nbsp;保存&nbsp;&nbsp;</button>-->
+                            <!--</div>-->
+                        <!--</div>-->
+
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+</div>
+
+<script type="text/javascript" src="__PUBLIC__/common/wpUploader/js/wp-uploader-core.js"></script>
+<script type="text/javascript" src="__PUBLIC__/common/wpUploader/js/wp-uploader.js"></script>
+<script type="text/javascript" src="__PUBLIC__/common/js/wp-globals.js"></script>
+
+<script>
+    wpUploader.formData={'type':'banner'};
+    wpUploader.url=Globals.dataCenterUrl;
+    function showWpUploader(id){
+        wpUploader.uploaded=function(ret){
+            ret=JSON.parse(ret);
+            if(ret.result==1){
+                var val =ret.val;
+                var src=val.rootPath+""+val.fileToUpload.savepath+val.fileToUpload.savename;
+                $('#pic'+id).attr('src',src);
+            }else{
+                myUi.alert('文件上传失败.',0,function(ret){});
+            }
+        };
+        wpUploader.show();
+    }
+
+    function save(id){
+        var bannerPic=$('#pic'+id).attr('src');
+        var bannerUrl=$('#url'+id).val();
+
+        data = new FormData();
+        data.append("id",id);
+        data.append("url",bannerUrl);
+        data.append("pic",bannerPic);
+
+        var url="{:U('IndexManage/setBanner')}";
+        $.ajax({
+            data: data,
+            type: "POST",
+            url: url,
+            cache: false,
+            contentType: false,
+            processData: false,
+            success: function(ret) {
+                console.log(ret);
+                var retJson=JSON.parse(ret);
+                if(retJson.result==1)
+                {
+                    myUi.alert('成功.',1,function(ret){});
+                }else{
+                    myUi.alert('失败.',0,function(ret){});
+                }
+            },
+            error:function(ret){
+                myUi.alert('失败.',0,function(ret){});
+            }
+        });
+    }
+
+    function preview(id){
+        var url=$('#url'+id).val();
+//        window.open(url);
+        top.topManager.openPage({
+            id : 'preview',
+            href :url,
+            title : '预览'
+        });
+    }
+</script>
+<include file="Layout:footer"/>

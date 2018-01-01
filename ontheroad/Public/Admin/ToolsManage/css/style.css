@@ -1,0 +1,38 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/***
+ * uimaker
+ * http://www.uimaker.com
+ * e-mail: admin@uimaker.com
+ */
+
+
+
+/*表格内容居中*/
+th{
+    text-align: center;
+}
+
+td{
+    text-align: center;
+}
+
+/*表头 背景色为蓝色 字体颜色为白色*/
+thead tr{
+    background-color: #3C4C87;
+    color: white;
+}
+
+.form-signin {
+    max-width: 360px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.my-row-select{
+    min-width:196px;
+}
+
+.my-row-input{
+    min-width: 196px;
+}

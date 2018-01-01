@@ -1,0 +1,575 @@
+[ 2017-12-31T13:34:29+08:00 ] ::1 /ontheroad/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2017-12-31T13:34:31+08:00 ] ::1 //ontheroad/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000245s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022688s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000252s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000273s ]
+
+[ 2017-12-31T13:34:31+08:00 ] ::1 /ontheroad/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000248s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000361s ]
+
+[ 2017-12-31T13:34:38+08:00 ] ::1 /ontheroad/index.php/Admin/Login/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000226s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.1169s ]
+SQL: SELECT * FROM `d_manager` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_manager_logging` [ RunTime:0.0205s ]
+SQL: INSERT INTO `d_manager_logging` (`user`,`time`,`operation`,`ip`) VALUES ('1','2017-12-31 13:34:38','登录','::1') [ RunTime:0.0307s ]
+
+[ 2017-12-31T13:34:38+08:00 ] ::1 /ontheroad/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038080s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038111s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000227s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000247s ]
+
+[ 2017-12-31T13:34:39+08:00 ] ::1 /ontheroad/index.php/Admin/Index/systemInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8192] mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Admin\Controller\IndexController.class.php 第 28 行.
+NOTIC: [2] mysql_get_server_info(): Access denied for user ''@'localhost' (using password: NO) E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Admin\Controller\IndexController.class.php 第 28 行.
+NOTIC: [2] mysql_get_server_info(): A link to the server could not be established E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Admin\Controller\IndexController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049227s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049295s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000221s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000240s ]
+
+[ 2017-12-31T13:36:07+08:00 ] ::1 /ontheroad/index.php/Admin/RoomManage/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000269s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0229s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_room_type` [ RunTime:0.0155s ]
+SQL: SELECT * FROM `d_room_type` WHERE `state` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050705s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050745s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000307s ]
+
+[ 2017-12-31T13:37:05+08:00 ] ::1 /ontheroad/index.php/Admin/RoomManage/detail/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0211s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_room_type` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `d_room_type` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.366714s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.366762s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000292s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000315s ]
+
+[ 2017-12-31T13:40:34+08:00 ] ::1 /ontheroad/index.php/Admin/RoomManage/detail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000245s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_room_type` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: validate E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `d_room_type` SET `thumbnail`='/ontheroad/Uploads/roomType/58fb4ffff14a5.png',`name`='男生床位4人间',`price`='45',`brief`='独立卫浴，私人存储柜，24小时热水，空调。',`detail`='&lt;h1&gt;
+	床位4人间
+&lt;/h1&gt;
+&lt;p&gt;
+	提起百年老店，很多人会将目光转向日本。日本是世界上公认的拥有百年老店最多的国家，甚至还有传承上千年的企业。日企用高质量的产品和精湛的服务诠释了“匠人精神”，然而以守业擅长的日企因转型不及时而遭淘汰的也不在少数。环环（huanqiu-com）近期在日本参观了松下旗下一些产业，明显感受到这个明年即将迎来创业一百周年的企业求变的紧迫感。
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;span&gt;提起百年老店，很多人会将目光转向日本。日本是世界上公认的拥有百年老店最多的国家，甚至还有传承上千年的企业。日企用高质量的产品和精湛的服务诠释了“匠人精神”，然而以守业擅长的日企因转型不及时而遭淘汰的也不在少数。环环（huanqiu-com）近期在日本参观了松下旗下一些产业，明显感受到这个明年即将迎来创业一百周年的企业求变的紧迫感。&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;span&gt;提起百年老店，很多人会将目光转向日本。日本是世界上公认的拥有百年老店最多的国家，甚至还有传承上千年的企业。日企用高质量的产品和精湛的服务诠释了“匠人精神”，然而以守业擅长的日企因转型不及时而遭淘汰的也不在少数。环环（huanqiu-com）近期在日本参观了松下旗下一些产业，明显感受到这个明年即将迎来创业一百周年的企业求变的紧迫感。&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;span&gt;提起百年老店，很多人会将目光转向日本。日本是世界上公认的拥有百年老店最多的国家，甚至还有传承上千年的企业。日企用高质量的产品和精湛的服务诠释了“匠人精神”，然而以守业擅长的日企因转型不及时而遭淘汰的也不在少数。环环（huanqiu-com）近期在日本参观了松下旗下一些产业，明显感受到这个明年即将迎来创业一百周年的企业求变的紧迫感。&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;span&gt;提起百年老店，很多人会将目光转向日本。日本是世界上公认的拥有百年老店最多的国家，甚至还有传承上千年的企业。日企用高质量的产品和精湛的服务诠释了“匠人精神”，然而以守业擅长的日企因转型不及时而遭淘汰的也不在少数。环环（huanqiu-com）近期在日本参观了松下旗下一些产业，明显感受到这个明年即将迎来创业一百周年的企业求变的紧迫感。&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;img src=&quot;/ontheroad/Public/Admin/kindeditor/attached/image/20170610/20170610145327_46361.jpg&quot; alt=&quot;&quot; width=&quot;960&quot; height=&quot;640&quot; title=&quot;&quot; align=&quot;&quot; /&gt; 
+&lt;/p&gt;' WHERE `id` = 3 [ RunTime:0.1135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2017-12-31T13:40:34+08:00 ] ::1 /ontheroad/index.php/Admin/RoomManage/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `d_room_type` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `d_room_type` WHERE `state` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006524s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000263s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000290s ]
+
+[ 2017-12-31T13:40:43+08:00 ] ::1 /ontheroad/index.php/Admin/RoomManage/detail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `d_room_type` [ RunTime:0.0087s ]
+NOTIC: [8] Undefined index: validate E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `d_room_type` SET `thumbnail`='/ontheroad/Uploads/roomType/58fb4ffff14a5.png',`name`='男生床位4人间',`price`='45',`brief`='独立卫浴，私人存储柜，24小时热水，空调。',`detail`='&lt;h1&gt;
+	床位4人间
+&lt;/h1&gt;
+&lt;p&gt;
+	提起百年老店，很多人会将目光转向日本。日本是世界上公认的拥有百年老店最多的国家，甚至还有传承上千年的企业。日企用高质量的产品和精湛的服务诠释了“匠人精神”，然而以守业擅长的日企因转型不及时而遭淘汰的也不在少数。环环（huanqiu-com）近期在日本参观了松下旗下一些产业，明显感受到这个明年即将迎来创业一百周年的企业求变的紧迫感。
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;span&gt;提起百年老店，很多人会将目光转向日本。日本是世界上公认的拥有百年老店最多的国家，甚至还有传承上千年的企业。日企用高质量的产品和精湛的服务诠释了“匠人精神”，然而以守业擅长的日企因转型不及时而遭淘汰的也不在少数。环环（huanqiu-com）近期在日本参观了松下旗下一些产业，明显感受到这个明年即将迎来创业一百周年的企业求变的紧迫感。&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;span&gt;提起百年老店，很多人会将目光转向日本。日本是世界上公认的拥有百年老店最多的国家，甚至还有传承上千年的企业。日企用高质量的产品和精湛的服务诠释了“匠人精神”，然而以守业擅长的日企因转型不及时而遭淘汰的也不在少数。环环（huanqiu-com）近期在日本参观了松下旗下一些产业，明显感受到这个明年即将迎来创业一百周年的企业求变的紧迫感。&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;span&gt;提起百年老店，很多人会将目光转向日本。日本是世界上公认的拥有百年老店最多的国家，甚至还有传承上千年的企业。日企用高质量的产品和精湛的服务诠释了“匠人精神”，然而以守业擅长的日企因转型不及时而遭淘汰的也不在少数。环环（huanqiu-com）近期在日本参观了松下旗下一些产业，明显感受到这个明年即将迎来创业一百周年的企业求变的紧迫感。&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;span&gt;提起百年老店，很多人会将目光转向日本。日本是世界上公认的拥有百年老店最多的国家，甚至还有传承上千年的企业。日企用高质量的产品和精湛的服务诠释了“匠人精神”，然而以守业擅长的日企因转型不及时而遭淘汰的也不在少数。环环（huanqiu-com）近期在日本参观了松下旗下一些产业，明显感受到这个明年即将迎来创业一百周年的企业求变的紧迫感。&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;img src=&quot;/ontheroad/Public/Admin/kindeditor/attached/image/20170610/20170610145327_46361.jpg&quot; alt=&quot;&quot; width=&quot;960&quot; height=&quot;640&quot; title=&quot;&quot; align=&quot;&quot; /&gt; 
+&lt;/p&gt;' WHERE `id` = 3 [ RunTime:0.1134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001170s ]
+
+[ 2017-12-31T15:27:43+08:00 ] ::1 /ontheroad/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000259s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015119s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000246s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000267s ]
+
+[ 2017-12-31T15:27:44+08:00 ] ::1 /ontheroad/index.php/Admin/Index/systemInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8192] mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Admin\Controller\IndexController.class.php 第 28 行.
+NOTIC: [2] mysql_get_server_info(): Access denied for user ''@'localhost' (using password: NO) E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Admin\Controller\IndexController.class.php 第 28 行.
+NOTIC: [2] mysql_get_server_info(): A link to the server could not be established E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Admin\Controller\IndexController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024288s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024333s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000255s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000275s ]
+
+[ 2017-12-31T15:27:44+08:00 ] ::1 /ontheroad/index.php/Admin/RoomManage/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0189s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `d_room_type` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `d_room_type` WHERE `state` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010764s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000286s ]
+
+[ 2017-12-31T15:27:50+08:00 ] ::1 /ontheroad/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000252s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008892s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000304s ]
+
+[ 2017-12-31T15:27:51+08:00 ] ::1 /ontheroad/index.php/Admin/Index/systemInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000270s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0171s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8192] mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Admin\Controller\IndexController.class.php 第 28 行.
+NOTIC: [2] mysql_get_server_info(): Access denied for user ''@'localhost' (using password: NO) E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Admin\Controller\IndexController.class.php 第 28 行.
+NOTIC: [2] mysql_get_server_info(): A link to the server could not be established E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Admin\Controller\IndexController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009067s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000589s ]
+
+[ 2017-12-31T15:27:51+08:00 ] ::1 /ontheroad/index.php/Admin/RoomManage/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0183s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_room_type` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `d_room_type` WHERE `state` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005162s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000290s ]
+
+[ 2017-12-31T15:27:52+08:00 ] ::1 /ontheroad/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005108s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000371s ]
+
+[ 2017-12-31T15:27:53+08:00 ] ::1 /ontheroad/index.php/Admin/Index/systemInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000248s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8192] mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Admin\Controller\IndexController.class.php 第 28 行.
+NOTIC: [2] mysql_get_server_info(): Access denied for user ''@'localhost' (using password: NO) E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Admin\Controller\IndexController.class.php 第 28 行.
+NOTIC: [2] mysql_get_server_info(): A link to the server could not be established E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Admin\Controller\IndexController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000053s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006428s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000212s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000232s ]
+
+[ 2017-12-31T15:27:53+08:00 ] ::1 /ontheroad/index.php/Admin/RoomManage/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000276s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_room_type` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `d_room_type` WHERE `state` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000227s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000247s ]
+
+[ 2017-12-31T15:28:19+08:00 ] ::1 /ontheroad/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000260s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005424s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000393s ]
+
+[ 2017-12-31T15:28:21+08:00 ] ::1 /ontheroad/index.php/Admin/Index/systemInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000252s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0197s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8192] mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Admin\Controller\IndexController.class.php 第 28 行.
+NOTIC: [2] mysql_get_server_info(): Access denied for user ''@'localhost' (using password: NO) E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Admin\Controller\IndexController.class.php 第 28 行.
+NOTIC: [2] mysql_get_server_info(): A link to the server could not be established E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Admin\Controller\IndexController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011968s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012091s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000613s ]
+
+[ 2017-12-31T15:28:21+08:00 ] ::1 /ontheroad/index.php/Admin/RoomManage/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0184s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_room_type` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `d_room_type` WHERE `state` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005457s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005493s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000236s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000257s ]
+

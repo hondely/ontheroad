@@ -1,0 +1,26 @@
+<include file="Public:header"/>
+
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/WeChat/css/aui-slide.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/WeChat/css/order/style.css" />
+
+<header id="header" class="aui-bar aui-bar-nav aui-bar-light">
+    <a href="javascript:history.back(1);" class="aui-pull-left aui-btn">
+        <span class="aui-iconfont aui-icon-left"></span>
+    </a>
+    <div  class="aui-title ">{$info.mark}</div>
+</header>
+
+<div id="content"  class="aui-content aui-margin-b-15" >
+    <div class="wp-pandding-a-15">
+        <div class="wp-border-radius-5 wp-bg-white wp-pandding-a-15 wp-kindeditor-content">
+            {$info.content}
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="__PUBLIC__/WeChat/js/jquery.min.js" ></script>
+<script type="text/javascript" src="__PUBLIC__/WeChat/js/aui-slide.js"></script>
+<script type="text/javascript">
+    auiSliderHeight="200px";
+</script>
+<include file="Public:footer"/>

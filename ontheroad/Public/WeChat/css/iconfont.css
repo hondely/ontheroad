@@ -1,0 +1,166 @@
+@font-face {
+	font-family: "iconfont";
+	src:url('iconfont.ttf?t=1464234465') format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+
+}
+
+.wp-iconfont {
+    font-family:"iconfont" !important;
+    font-size: 0.7rem;
+     font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+}
+
+
+.aui-bar-tab .aui-bar-tab-item .wp-iconfont {
+    position: relative;
+    z-index: 20;
+    top: 0.1rem;
+    height: 1.2rem;
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+.wp-icon-path:before { content: "\e600"; }
+.wp-icon-order:before { content: "\e601"; }
+
+
+.wp-text-themeprimary {
+	color:#2dc3e8!important
+}
+.wp-text-themesecondary {
+	color:#fb6e52!important
+}
+.wp-text-themethirdcolor {
+	color:#ffce55!important
+}
+.wp-text-themefourthcolor {
+	color:#a0d468!important
+}
+.wp-text-themefifthcolor {
+	color:#e75b8d!important
+}
+.wp-text-black {
+	color:#000000 !important
+}
+.wp-text-white {
+	color:#fff!important
+}
+.wp-text-snow {
+	color:#fbfbfb!important
+}
+.wp-text-whitesmoke {
+	color:#f5f5f5!important
+}
+.wp-text-seashell {
+	color:#f3f3f3!important
+}
+.wp-text-ivory {
+	color:#eee!important
+}
+.wp-text-platinum {
+	color:#e5e5e5!important
+}
+.wp-text-lightgray {
+	color:#d0d0d0!important
+}
+.wp-text-gray {
+	color:#ccc!important
+}
+.wp-text-darkgray {
+	color:#999!important
+}
+.wp-text-silver {
+	color:#777!important
+}
+.wp-text-sonic-silver {
+	color:#737373!important
+}
+.wp-text-storm-cloud {
+	color:#666!important
+}
+.wp-text-lightcarbon {
+	color:#555!important
+}
+.wp-text-carbon {
+	color:#444!important
+}
+.wp-text-slate-gray {
+	color:#333!important
+}
+.wp-text-darkcarbon {
+	color:#262626!important
+}
+.wp-text-blue {
+	color:#5db2ff!important
+}
+.wp-text-info {
+	color:#57b5e3!important
+}
+.wp-text-sky {
+	color:#11a9cc!important
+}
+.wp-text-primary {
+	color:#4374e0!important
+}
+.wp-text-azure {
+	color:#2dc3e8!important
+}
+.wp-text-blueberry {
+	color:#6f85bf!important
+}
+.wp-text-palegreen {
+	color:#a0d468!important
+}
+.wp-text-success {
+	color:#53a93f!important
+}
+.wp-text-green {
+	color:#8cc474!important
+}
+.wp-text-lightyellow {
+	color:#f6d52e!important
+}
+.wp-text-yellow {
+	color:#ffce55!important
+}
+.wp-text-warning {
+	color:#f4b400!important
+}
+.wp-text-gold {
+	color:#f9b256!important
+}
+.wp-text-orange {
+	color:#fb6e52!important
+}
+.wp-text-lightred {
+	color:#e46f61!important
+}
+.wp-text-darkorange {
+	color:#ed4e2a!important
+}
+.wp-text-red {
+	color:#df5138!important
+}
+.wp-text-pink {
+	color:#e75b8d!important
+}
+.wp-text-darkpink {
+	color:#cc324b!important
+}
+.wp-text-danger {
+	color:#d73d32!important
+}
+.wp-text-magenta {
+	color:#bc5679!important
+}
+.wp-text-purple {
+	color:#7e3794!important
+}
+.wp-text-maroon {
+	color:#981b48!important
+}
+

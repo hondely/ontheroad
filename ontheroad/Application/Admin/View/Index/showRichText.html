@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <link href="__PUBLIC__/Admin/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="__PUBLIC__/Admin/bootstrap/css/bootstrap-theme.css" rel="stylesheet" type="text/css" />
+    <link href="__PUBLIC__/Admin/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css"/>
+    <link href="__PUBLIC__/Admin/summernote/summernote.css" rel="stylesheet" type="text/css"/>
+
+
+    <title>summernote</title>
+</head>
+<body>
+<div id="content">
+    {$content}
+</div>
+
+<script type="text/javascript" src="__PUBLIC__/Admin/js/base64.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Admin/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Admin/bootstrap/js/bootstrap.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Admin/summernote/summernote.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Admin/summernote/lang/summernote.js"></script>
+<script >
+
+
+
+    function showRichText()
+    {
+//        $("#content").html('{$content}');
+        var content='{$content}';
+        alert("23");
+       // alert(content);
+        //alert(content);
+        //$("#content").appendChild(content);
+        $("#content").html(content);
+    }
+    showRichText();
+</script>
+</body>
+</html>
+
+
+

@@ -1,0 +1,81 @@
+.wp-car-list{
+    margin-top: 10px;
+}
+.wp-car-list-item{
+    background-color: white;
+    margin-bottom: 10px;
+}
+.wp-car-list-item-titel{
+    padding-left: 5px;
+    font-size: 16px;
+}
+
+.wp-car-list-item-describe{
+    font-size: 12px;
+    padding-left: 5px;
+}
+.wp-about{
+    float: left;
+    width: 80%;
+}
+.wp-order{
+    float: left;
+    width: 20%;
+}
+.wp-order-btn{
+    background-color: #29e392 !important;
+    color: white;
+}
+.wp-order-date{
+    min-height: 3em;
+}
+.wp-order-date-start,.wp-order-date-end{
+    float: left;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+.wp-order-date-end{
+    border-left: 1px solid #ccc;
+}
+
+.wp-order-date-start h3,.wp-order-date-end h3,.wp-order-total{
+    color: red;
+    font-size: 1em;
+    /*font-weight: bold;*/
+}
+
+.wp-order-date-start span,.wp-order-date-start p,.wp-order-date-end span,.wp-order-date-end p{
+    font-size: 0.8em;
+}
+.wp-order-info{
+    min-height: 11em;
+}
+.wp-order-pay-way{
+    min-height: 5em;
+}
+.wp-form-inline-text{
+    float: left;
+    width: 20%;
+    min-height: 2.5em;
+}
+.wp-form-inline-input{
+    float: left;
+    width: 80%;
+    min-height: 2.5em;
+}
+
+.wp-form-inline-input input,.wp-form-inline-input input,select,textarea{
+    border: none;
+    background: none;
+    border-radius: 0;
+    box-shadow: none;
+    display: inline;
+    padding: 0;
+    margin: 0;
+    /*width: 100%;*/
+    min-height: 1em;
+    color: #424242;
+    font-size: 0.8em;
+}

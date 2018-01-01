@@ -1,0 +1,2188 @@
+[ 2017-06-18T00:02:09+08:00 ] 223.85.219.239 /ontheroad/index.php/Admin/RoomManage/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001199s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `d_room_type` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `d_room_type` WHERE `state` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000406s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026828s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027086s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000748s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000980s ]
+
+[ 2017-06-18T00:02:09+08:00 ] 223.85.219.239 /ontheroad/index.php/Admin/Around/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around_class` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `d_around_class` WHERE ( state=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `d_around` WHERE `class_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `d_around` WHERE `class_id` = 1 ORDER BY id desc LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000467s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000867s ]
+
+[ 2017-06-18T00:02:29+08:00 ] 117.172.24.76 /ontheroad/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001102s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000388s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013871s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001059s ]
+
+[ 2017-06-18T00:02:30+08:00 ] 117.172.24.76 /ontheroad/index.php/Admin/Index/systemInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000378s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011849s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012096s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001002s ]
+
+[ 2017-06-18T00:02:35+08:00 ] 223.85.219.239 /ontheroad/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000385s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013444s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013686s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000791s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001017s ]
+
+[ 2017-06-18T00:02:38+08:00 ] 117.172.24.76 /ontheroad/index.php/Admin/Index/systemInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000367s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011323s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001044s ]
+
+[ 2017-06-18T00:02:38+08:00 ] 223.85.219.239 /ontheroad/index.php/Admin/Index/systemInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000374s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011648s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000779s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001003s ]
+
+[ 2017-06-18T00:02:42+08:00 ] 223.85.219.239 /ontheroad/index.php/Admin/Around/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around_class` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `d_around_class` WHERE ( state=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `d_around` WHERE `class_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `d_around` WHERE `class_id` = 1 ORDER BY id desc LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000381s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020380s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001041s ]
+
+[ 2017-06-18T00:02:45+08:00 ] 223.85.219.239 /ontheroad/index.php/Admin/Around/index/class/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000993s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around_class` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `d_around_class` WHERE ( state=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `d_around` WHERE `class_id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `d_around` WHERE `class_id` = 6 ORDER BY id desc LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000384s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021294s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021535s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001027s ]
+
+[ 2017-06-18T00:02:48+08:00 ] 223.85.219.239 /ontheroad/index.php/Admin/Around/index/class/6/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000992s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001144s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around_class` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `d_around_class` WHERE ( state=1 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0023s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `d_around` WHERE `class_id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `d_around` WHERE `class_id` = 6 ORDER BY id desc LIMIT 4,4   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000392s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020871s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021113s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000774s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000794s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001026s ]
+
+[ 2017-06-18T00:02:55+08:00 ] 223.85.219.239 /ontheroad/index.php/Admin/Around/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `d_around_class` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `d_around_class` WHERE ( state=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `d_around` WHERE `class_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `d_around` WHERE `class_id` = 1 ORDER BY id desc LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000383s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020385s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020628s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000807s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000952s ]
+
+[ 2017-06-18T00:02:58+08:00 ] 223.85.219.239 /ontheroad/index.php/Admin/Around/index/class/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000993s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around_class` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `d_around_class` WHERE ( state=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `d_around` WHERE `class_id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `d_around` WHERE `class_id` = 6 ORDER BY id desc LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000381s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020689s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020927s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000868s ]
+
+[ 2017-06-18T00:05:22+08:00 ] 223.85.219.239 /ontheroad/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000401s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012244s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012486s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001035s ]
+
+[ 2017-06-18T00:05:32+08:00 ] 223.85.219.239 /ontheroad/index.php/Admin/Index/systemInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000368s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010965s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000728s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000958s ]
+
+[ 2017-06-18T00:05:32+08:00 ] 223.85.219.239 /ontheroad/index.php/Admin/Around/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001021s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around_class` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `d_around_class` WHERE ( state=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `d_around` WHERE `class_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `d_around` WHERE `class_id` = 1 ORDER BY id desc LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000378s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020387s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020629s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001013s ]
+
+[ 2017-06-18T00:05:36+08:00 ] 223.85.219.239 /ontheroad/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_user` [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `d_user` WHERE `state` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `d_user` WHERE `state` = 1 ORDER BY start_time desc LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `d_user` [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000371s ]
+NOTIC: [8] Undefined index: id C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined index: id C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined index: id C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined index: id C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined index: id C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined index: id C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined variable: type C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 52 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 52 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 52 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031808s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032045s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000994s ]
+
+[ 2017-06-18T00:06:00+08:00 ] 223.85.219.239 /ontheroad/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2017-06-18T00:06:01+08:00 ] 223.85.219.239 //ontheroad/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000353s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017780s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000634s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000859s ]
+
+[ 2017-06-18T00:06:02+08:00 ] 223.85.219.239 /ontheroad/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000655s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000897s ]
+
+[ 2017-06-18T00:06:05+08:00 ] 223.85.219.239 /ontheroad/index.php/Admin/Login/verify.html?0.41283845532776775
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000900s ]
+
+[ 2017-06-18T00:06:06+08:00 ] 223.85.219.239 /ontheroad/index.php/Admin/Login/verify.html?0.41283845532776775?0.6121313627400817
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001150s ]
+
+[ 2017-06-18T00:06:10+08:00 ] 223.85.219.239 /ontheroad/index.php/Admin/Login/verify.html?0.41283845532776775?0.6121313627400817?0.82674427270558
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000894s ]
+
+[ 2017-06-18T00:06:14+08:00 ] 223.85.219.239 /ontheroad/index.php/Admin/Login/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `d_manager` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `d_manager_logging` [ RunTime:0.0016s ]
+SQL: INSERT INTO `d_manager_logging` (`user`,`time`,`operation`,`ip`) VALUES ('1','2017-06-18 00:06:14','登录','223.85.219.239') [ RunTime:0.0115s ]
+
+[ 2017-06-18T00:06:14+08:00 ] 223.85.219.239 /ontheroad/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000376s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011426s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000879s ]
+
+[ 2017-06-18T00:06:14+08:00 ] 223.85.219.239 /ontheroad/index.php/Admin/Index/systemInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000963s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0337s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000375s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010470s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010715s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000885s ]
+
+[ 2017-06-18T00:06:37+08:00 ] 223.85.219.239 /ontheroad/index.php/Admin/Index/editPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000999s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000494s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028352s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000656s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000888s ]
+
+[ 2017-06-18T00:06:39+08:00 ] 223.85.219.239 /ontheroad/index.php/Admin/IndexManage/banner.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `d_banner` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `d_banner`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000390s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026948s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000855s ]
+
+[ 2017-06-18T00:06:40+08:00 ] 223.85.219.239 /ontheroad/index.php/Admin/RoomManage/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_room_type` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `d_room_type` WHERE `state` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000377s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016118s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000640s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000868s ]
+
+[ 2017-06-18T00:06:46+08:00 ] 117.172.24.76 /ontheroad/index.php/Admin/Around/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around_class` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `d_around_class` WHERE ( state=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `d_around` WHERE `class_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `d_around` WHERE `class_id` = 1 ORDER BY id desc LIMIT 0,4   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000380s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020871s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021113s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000768s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-18T00:06:50+08:00 ] 117.172.24.76 /ontheroad/index.php/Admin/Around/index/class/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `d_around_class` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `d_around_class` WHERE ( state=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `d_around` WHERE `class_id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `d_around` WHERE `class_id` = 4 ORDER BY id desc LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000387s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020234s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020476s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000999s ]
+
+[ 2017-06-18T00:06:52+08:00 ] 117.172.24.76 /ontheroad/index.php/Admin/Around/index/class/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around_class` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `d_around_class` WHERE ( state=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `d_around` WHERE `class_id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `d_around` WHERE `class_id` = 6 ORDER BY id desc LIMIT 0,4   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000383s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022247s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000991s ]
+
+[ 2017-06-18T00:07:02+08:00 ] 117.172.24.76 /ontheroad/index.php/Admin/Around/index/class/6/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `d_around_class` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `d_around_class` WHERE ( state=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `d_around` WHERE `class_id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `d_around` WHERE `class_id` = 6 ORDER BY id desc LIMIT 4,4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000396s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021490s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000789s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001020s ]
+
+[ 2017-06-18T00:07:06+08:00 ] 117.172.24.76 /ontheroad/index.php/Admin/DocumentCenter/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000386s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036993s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000876s ]
+
+[ 2017-06-18T00:07:08+08:00 ] 117.172.24.76 /ontheroad/index.php/Admin/DocumentCenter/indexForMulti/type/1/typeName/%E7%B2%BE%E5%BD%A9%E5%9B%BE%E9%9B%86.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_document_for_multi` [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `d_document_for_multi` WHERE `type` = 1 AND `state` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `d_document_for_multi` WHERE `type` = 1 AND `state` = 1 ORDER BY time desc LIMIT 0,10   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `d_document_for_multi` [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000400s ]
+NOTIC: [8] Undefined index: name C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\52decb16d49342dde54932e5f0877cb7.php 第 42 行.
+NOTIC: [8] Undefined index: name C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\52decb16d49342dde54932e5f0877cb7.php 第 42 行.
+NOTIC: [8] Undefined index: name C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\52decb16d49342dde54932e5f0877cb7.php 第 42 行.
+NOTIC: [8] Undefined index: name C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\52decb16d49342dde54932e5f0877cb7.php 第 42 行.
+NOTIC: [8] Undefined index: name C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\52decb16d49342dde54932e5f0877cb7.php 第 42 行.
+NOTIC: [8] Undefined index: name C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\52decb16d49342dde54932e5f0877cb7.php 第 42 行.
+NOTIC: [8] Undefined index: name C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\52decb16d49342dde54932e5f0877cb7.php 第 42 行.
+NOTIC: [8] Undefined index: name C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\52decb16d49342dde54932e5f0877cb7.php 第 42 行.
+NOTIC: [8] Undefined index: name C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\52decb16d49342dde54932e5f0877cb7.php 第 42 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038900s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000665s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000895s ]
+
+[ 2017-06-18T00:07:12+08:00 ] 117.172.24.76 /ontheroad/index.php/Admin/DocumentCenter/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000378s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015889s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016136s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000626s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000857s ]
+
+[ 2017-06-18T00:07:14+08:00 ] 117.172.24.76 /ontheroad/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_user` [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `d_user` WHERE `state` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `d_user` WHERE `state` = 1 ORDER BY start_time desc LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `d_user` [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000386s ]
+NOTIC: [8] Undefined index: id C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined index: id C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined index: id C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined index: id C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined index: id C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined index: id C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined variable: type C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 52 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 52 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 52 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016168s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016423s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000879s ]
+
+[ 2017-06-18T00:07:16+08:00 ] 117.172.24.76 /ontheroad/index.php/Admin/DocumentCenter/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000384s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016408s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016649s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000796s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001027s ]
+
+[ 2017-06-18T00:07:16+08:00 ] 117.172.24.76 /ontheroad/index.php/Admin/DocumentCenter/editForSingle/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001045s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_document` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `d_document` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000380s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023402s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023640s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000759s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001048s ]
+
+[ 2017-06-18T00:07:24+08:00 ] 117.172.24.76 /ontheroad/index.php/Admin/DocumentCenter/detail/id/13/typeName/%E7%B2%BE%E5%BD%A9%E5%9B%BE%E9%9B%86.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `d_document_for_multi` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `d_document_for_multi` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000403s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048307s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001021s ]
+
+[ 2017-06-18T00:07:27+08:00 ] 117.172.24.76 /ontheroad/index.php/Admin/Around/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around_class` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `d_around_class` WHERE ( state=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `d_around` WHERE `class_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `d_around` WHERE `class_id` = 1 ORDER BY id desc LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000386s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021263s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021511s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000748s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000980s ]
+
+[ 2017-06-18T00:07:29+08:00 ] 117.172.24.76 /ontheroad/index.php/Admin/Around/index/class/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001172s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around_class` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `d_around_class` WHERE ( state=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `d_around` WHERE `class_id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `d_around` WHERE `class_id` = 6 ORDER BY id desc LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000384s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021302s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021549s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000970s ]
+
+[ 2017-06-18T00:07:32+08:00 ] 117.172.24.76 /ontheroad/index.php/Admin/Around/index/class/6/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000994s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around_class` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `d_around_class` WHERE ( state=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `d_around` WHERE `class_id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `d_around` WHERE `class_id` = 6 ORDER BY id desc LIMIT 4,4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000391s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021266s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000761s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000995s ]
+
+[ 2017-06-18T00:07:38+08:00 ] 117.172.24.76 /ontheroad/index.php/Admin/Around/index/class/6/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001164s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `d_around_class` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `d_around_class` WHERE ( state=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `d_around` WHERE `class_id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `d_around` WHERE `class_id` = 6 ORDER BY id desc LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000411s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022811s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023098s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000794s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001052s ]
+
+[ 2017-06-18T00:07:39+08:00 ] 117.172.24.76 /ontheroad/index.php/Admin/Around/index/class/6/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around_class` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `d_around_class` WHERE ( state=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `d_around` WHERE `class_id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `d_around` WHERE `class_id` = 6 ORDER BY id desc LIMIT 4,4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000382s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021176s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000968s ]
+
+[ 2017-06-18T00:07:43+08:00 ] 117.172.24.76 /ontheroad/index.php/Admin/Around/index/id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around_class` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `d_around_class` WHERE ( state=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `d_around` WHERE `class_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `d_around` WHERE `class_id` = 1 ORDER BY id desc LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000380s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020278s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020519s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000743s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000975s ]
+
+[ 2017-06-18T00:07:44+08:00 ] 117.172.24.76 /ontheroad/index.php/Admin/Around/index/class/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around_class` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `d_around_class` WHERE ( state=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `d_around` WHERE `class_id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `d_around` WHERE `class_id` = 6 ORDER BY id desc LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000381s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021455s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000736s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000966s ]
+
+[ 2017-06-18T00:07:46+08:00 ] 117.172.24.76 /ontheroad/index.php/Admin/Around/index/class/6/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around_class` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `d_around_class` WHERE ( state=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `d_around` WHERE `class_id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `d_around` WHERE `class_id` = 6 ORDER BY id desc LIMIT 4,4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000379s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020594s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000735s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000967s ]
+
+[ 2017-06-18T00:07:54+08:00 ] 223.85.219.239 /ontheroad/index.php/Admin/Around/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `d_around_class` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `d_around_class` WHERE ( state=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `d_around` WHERE `class_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `d_around` WHERE `class_id` = 1 ORDER BY id desc LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000382s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020205s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020656s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000736s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000969s ]
+
+[ 2017-06-18T00:08:24+08:00 ] 223.85.219.239 /ontheroad/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001067s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `d_user` [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `d_user` WHERE `state` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `d_user` WHERE `state` = 1 ORDER BY start_time desc LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `d_user` [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000447s ]
+NOTIC: [8] Undefined index: id C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined index: id C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined index: id C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined index: id C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined index: id C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined index: id C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined variable: type C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 52 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 52 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 52 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016908s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001044s ]
+
+[ 2017-06-18T00:08:28+08:00 ] 223.85.219.239 /ontheroad/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_user` [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `d_user` WHERE `state` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `d_user` WHERE `state` = 1 ORDER BY start_time desc LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `d_user` [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000395s ]
+NOTIC: [8] Undefined index: id C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined index: id C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined index: id C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined index: id C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined index: id C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined index: id C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined variable: type C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 52 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 52 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 52 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016659s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000788s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001058s ]
+
+[ 2017-06-18T00:08:29+08:00 ] 223.85.219.239 /ontheroad/index.php/Admin/Around/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around_class` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `d_around_class` WHERE ( state=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `d_around` WHERE `class_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `d_around` WHERE `class_id` = 1 ORDER BY id desc LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000401s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020290s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020530s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000796s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001026s ]
+
+[ 2017-06-18T00:08:30+08:00 ] 223.85.219.239 /ontheroad/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_user` [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `d_user` WHERE `state` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `d_user` WHERE `state` = 1 ORDER BY start_time desc LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `d_user` [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000369s ]
+NOTIC: [8] Undefined index: id C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined index: id C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined index: id C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined index: id C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined index: id C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined index: id C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined variable: type C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 52 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 52 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 52 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016703s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016939s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000833s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001063s ]
+
+[ 2017-06-18T00:08:34+08:00 ] 223.85.219.239 /ontheroad/index.php/Admin/RoomManage/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000986s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_room_type` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `d_room_type` WHERE `state` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000378s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016946s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000808s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001040s ]
+
+[ 2017-06-18T00:08:49+08:00 ] 117.172.24.76 /ontheroad/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000375s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012527s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001098s ]
+
+[ 2017-06-18T00:08:59+08:00 ] 117.172.24.76 /ontheroad/index.php/Admin/Index/systemInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001125s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000413s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011373s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011615s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000742s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001087s ]
+
+[ 2017-06-18T00:08:59+08:00 ] 117.172.24.76 /ontheroad/index.php/Admin/RoomManage/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_room_type` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `d_room_type` WHERE `state` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000382s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017917s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000842s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001074s ]
+
+[ 2017-06-18T18:53:22+08:00 ] 117.173.212.120 /ontheroad/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000838s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001794s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2017-06-18T18:53:25+08:00 ] 117.173.212.120 //ontheroad/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000848s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001803s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000383s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084340s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084706s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001563s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001909s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002139s ]
+
+[ 2017-06-18T18:53:25+08:00 ] 117.173.212.120 /ontheroad/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000958s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001946s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002038s ]
+
+[ 2017-06-18T18:53:34+08:00 ] 117.173.212.120 /ontheroad/index.php/Admin/Login/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000880s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001758s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000352s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033098s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033341s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001501s ]
+
+[ 2017-06-18T23:35:43+08:00 ] 117.172.25.246 /ontheroad/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000877s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001817s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2017-06-18T23:35:45+08:00 ] 117.172.25.246 //ontheroad/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001855s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000351s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027491s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005923s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002162s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002390s ]
+
+[ 2017-06-18T23:35:45+08:00 ] 117.172.25.246 /ontheroad/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000904s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001892s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001903s ]
+
+[ 2017-06-18T23:35:47+08:00 ] 117.172.25.246 /ontheroad/index.php/Admin/Login/verify.html?0.025808959593924596
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000888s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002131s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001924s ]
+
+[ 2017-06-18T23:35:48+08:00 ] 117.172.25.246 /ontheroad/index.php/Admin/Login/verify.html?0.025808959593924596?0.9174071046279859
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000861s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001763s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001820s ]
+
+[ 2017-06-18T23:35:49+08:00 ] 117.172.25.246 /ontheroad/index.php/Admin/Login/verify.html?0.025808959593924596?0.9174071046279859?0.6202610975761451
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001807s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001781s ]
+
+[ 2017-06-18T23:35:49+08:00 ] 117.172.25.246 /ontheroad/index.php/Admin/Login/verify.html?0.025808959593924596?0.9174071046279859?0.6202610975761451?0.8350805196800577
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001748s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001729s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001989s ]
+
+[ 2017-06-18T23:35:54+08:00 ] 117.172.25.246 /ontheroad/index.php/Admin/Login/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001751s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `d_manager` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `d_manager_logging` [ RunTime:0.0017s ]
+SQL: INSERT INTO `d_manager_logging` (`user`,`time`,`operation`,`ip`) VALUES ('1','2017-06-18 23:35:54','登录','117.172.25.246') [ RunTime:0.0111s ]
+
+[ 2017-06-18T23:35:54+08:00 ] 117.172.25.246 /ontheroad/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000854s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001925s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000390s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016414s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001737s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001729s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001975s ]
+
+[ 2017-06-18T23:35:55+08:00 ] 117.172.25.246 /ontheroad/index.php/Admin/Index/systemInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000915s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002163s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000414s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015574s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015829s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001563s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002548s ]
+
+[ 2017-06-18T23:35:57+08:00 ] 117.172.25.246 /ontheroad/index.php/Admin/Around/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000872s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001870s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `d_around_class` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `d_around_class` WHERE ( state=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `d_around` WHERE `class_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `d_around` WHERE `class_id` = 1 ORDER BY id desc LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000382s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028740s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001880s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002081s ]
+
+[ 2017-06-18T23:36:01+08:00 ] 117.172.25.246 /ontheroad/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001917s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `d_user` [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `d_user` WHERE `state` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `d_user` WHERE `state` = 1 ORDER BY start_time desc LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `d_user` [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000366s ]
+NOTIC: [8] Undefined index: id C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined index: id C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined index: id C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined index: id C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined index: id C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined index: id C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined variable: type C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 52 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 52 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 52 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042233s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042472s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001589s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001781s ]
+
+[ 2017-06-18T23:36:05+08:00 ] 117.172.25.246 /ontheroad/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000875s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001861s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `d_user` [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `d_user` WHERE `state` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `d_user` WHERE `state` = 1 ORDER BY start_time desc LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `d_user` [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000435s ]
+NOTIC: [8] Undefined index: id C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined index: id C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined index: id C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined index: id C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined index: id C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined index: id C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 38 行.
+NOTIC: [8] Undefined variable: type C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 52 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 52 行.
+NOTIC: [8] Undefined variable: typeName C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 52 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022194s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022521s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008557s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001931s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002163s ]
+
+[ 2017-06-18T23:36:08+08:00 ] 117.172.25.246 /ontheroad/index.php/Admin/Around/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001887s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around_class` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `d_around_class` WHERE ( state=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `d_around` WHERE `class_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `d_around` WHERE `class_id` = 1 ORDER BY id desc LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000394s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024866s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001796s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004256s ]
+
+[ 2017-06-18T23:36:13+08:00 ] 117.172.25.246 /ontheroad/index.php/Admin/Around/index/class/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001821s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around_class` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `d_around_class` WHERE ( state=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `d_around` WHERE `class_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `d_around` WHERE `class_id` = 2 ORDER BY id desc LIMIT 0,4   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000448s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028423s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028674s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001397s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001791s ]
+
+[ 2017-06-18T23:36:19+08:00 ] 117.172.25.246 /ontheroad/index.php/Admin/Around/index/class/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000872s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001905s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `d_around_class` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `d_around_class` WHERE ( state=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `d_around` WHERE `class_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `d_around` WHERE `class_id` = 3 ORDER BY id desc LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000385s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024770s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025023s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001398s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001620s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001657s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001900s ]
+
+[ 2017-06-18T23:36:20+08:00 ] 117.172.25.246 /ontheroad/index.php/Admin/Around/index/class/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000891s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001818s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `d_around_class` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `d_around_class` WHERE ( state=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `d_around` WHERE `class_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `d_around` WHERE `class_id` = 1 ORDER BY id desc LIMIT 0,4   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000372s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024113s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001634s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001807s ]
+
+[ 2017-06-18T23:36:21+08:00 ] 117.172.25.246 /ontheroad/index.php/Admin/Around/detail/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001725s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `d_around` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000382s ]
+NOTIC: [8] Undefined variable: classId C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\4d910f78b251f959b395dfe86a180ba9.php 第 124 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027514s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027748s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001586s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001849s ]
+
+[ 2017-06-18T23:36:25+08:00 ] 117.172.25.246 /ontheroad/index.php/Admin/Around/detail/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000853s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001911s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `d_around` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000377s ]
+NOTIC: [8] Undefined variable: classId C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\4d910f78b251f959b395dfe86a180ba9.php 第 124 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017136s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001525s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001768s ]
+
+[ 2017-06-18T23:36:35+08:00 ] 117.172.25.246 /ontheroad/index.php/Admin/Around/detail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001839s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\ontheroad\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp\www\ontheroad\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `d_around` SET `thumbnail`='/ontheroad/Uploads/aroound/59452543f40b6.png',`name`='黑色旅行T桖',`price`='100',`brief`='专为旅行打造的一款T桖',`detail`='&lt;span style=&quot;color:#111111;font-family:Arial, Helvetica, sans-serif;font-size:13px;background-color:#FFFFFF;&quot;&gt;追梦，又一年。在新的一个创业年里，我有一个梦想，每天送一个床位，给一个陌生人。也许你认识我，也许你住过追梦，也许你来过成都，也许你还没有住过青旅渴望尝试一次，又或者你是长期瓢泼在外的旅者，你是死宅的黄花大闺女，你是除了不能干什么&lt;/span&gt;' WHERE `id` = 3 [ RunTime:0.0080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001768s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001979s ]
+
+[ 2017-06-18T23:36:37+08:00 ] 117.172.25.246 /ontheroad/index.php/Admin/Around/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001875s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around_class` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `d_around_class` WHERE ( state=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `d_around` WHERE `class_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `d_around` WHERE `class_id` = 1 ORDER BY id desc LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000376s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024527s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001644s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001842s ]
+
+[ 2017-06-18T23:37:11+08:00 ] 117.172.25.246 /ontheroad/index.php/Admin/Around/detail/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001781s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `d_around` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000383s ]
+NOTIC: [8] Undefined variable: classId C:\wamp\www\ontheroad\Application\Runtime\Cache\Admin\4d910f78b251f959b395dfe86a180ba9.php 第 124 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016725s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001526s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001706s ]
+
+[ 2017-06-18T23:37:17+08:00 ] 117.172.25.246 /ontheroad/index.php/Admin/Around/detail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000899s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001934s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0017s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\ontheroad\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp\www\ontheroad\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `d_around` SET `thumbnail`='/ontheroad/Uploads/aroound/59452543f40b6.png',`name`='黑色旅行T桖',`price`='99',`brief`='专为旅行打造的一款T桖',`detail`='&lt;span style=&quot;color:#111111;font-family:Arial, Helvetica, sans-serif;font-size:13px;background-color:#FFFFFF;&quot;&gt;追梦，又一年。在新的一个创业年里，我有一个梦想，每天送一个床位，给一个陌生人。也许你认识我，也许你住过追梦，也许你来过成都，也许你还没有住过青旅渴望尝试一次，又或者你是长期瓢泼在外的旅者，你是死宅的黄花大闺女，你是除了不能干什么&lt;/span&gt;' WHERE `id` = 3 [ RunTime:0.0146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001554s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001751s ]
+
+[ 2017-06-18T23:37:18+08:00 ] 117.172.25.246 /ontheroad/index.php/Admin/Around/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000848s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003258s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around_class` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `d_around_class` WHERE ( state=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `d_around` WHERE `class_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `d_around` WHERE `class_id` = 1 ORDER BY id desc LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000397s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023221s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023497s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001533s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001803s ]
+
+[ 2017-06-18T23:37:35+08:00 ] 117.172.25.246 /ontheroad/index.php/Admin/Around/detail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000901s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001840s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0017s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\ontheroad\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp\www\ontheroad\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `d_around` SET `thumbnail`='/ontheroad/Uploads/aroound/59452543f40b6.png',`name`='黑色旅行T桖',`price`='99',`brief`='专为旅行打造的一款T桖',`detail`='&lt;span style=&quot;color:#111111;font-family:Arial, Helvetica, sans-serif;font-size:13px;background-color:#FFFFFF;&quot;&gt;追梦，又一年。在新的一个创业年里，我有一个梦想，每天送一个床位，给一个陌生人。也许你认识我，也许你住过追梦，也许你来过成都，也许你还没有住过青旅渴望尝试一次，又或者你是长期瓢泼在外的旅者，你是死宅的黄花大闺女，你是除了不能干什么&lt;/span&gt;' WHERE `id` = 3 [ RunTime:0.0084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001890s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002098s ]
+
+[ 2017-06-18T23:37:37+08:00 ] 117.172.25.246 /ontheroad/index.php/Admin/Around/detail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000864s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001877s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0021s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\ontheroad\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp\www\ontheroad\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `d_around` SET `thumbnail`='/ontheroad/Uploads/aroound/59452543f40b6.png',`name`='黑色旅行T桖',`price`='99',`brief`='专为旅行打造的一款T桖',`detail`='&lt;span style=&quot;color:#111111;font-family:Arial, Helvetica, sans-serif;font-size:13px;background-color:#FFFFFF;&quot;&gt;追梦，又一年。在新的一个创业年里，我有一个梦想，每天送一个床位，给一个陌生人。也许你认识我，也许你住过追梦，也许你来过成都，也许你还没有住过青旅渴望尝试一次，又或者你是长期瓢泼在外的旅者，你是死宅的黄花大闺女，你是除了不能干什么&lt;/span&gt;' WHERE `id` = 3 [ RunTime:0.0123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002488s ]
+
+[ 2017-06-18T23:37:42+08:00 ] 117.172.25.246 /ontheroad/index.php/Admin/Around/detail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000912s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001747s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0017s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\ontheroad\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp\www\ontheroad\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `d_around` SET `thumbnail`='/ontheroad/Uploads/aroound/59452543f40b6.png',`name`='黑色旅行T桖',`price`='100',`brief`='专为旅行打造的一款T桖',`detail`='&lt;span style=&quot;color:#111111;font-family:Arial, Helvetica, sans-serif;font-size:13px;background-color:#FFFFFF;&quot;&gt;追梦，又一年。在新的一个创业年里，我有一个梦想，每天送一个床位，给一个陌生人。也许你认识我，也许你住过追梦，也许你来过成都，也许你还没有住过青旅渴望尝试一次，又或者你是长期瓢泼在外的旅者，你是死宅的黄花大闺女，你是除了不能干什么&lt;/span&gt;' WHERE `id` = 3 [ RunTime:0.0071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001968s ]
+
+[ 2017-06-18T23:37:43+08:00 ] 117.172.25.246 /ontheroad/index.php/Admin/Around/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001848s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `d_around_class` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `d_around_class` WHERE ( state=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `d_around` WHERE `class_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `d_around` WHERE `class_id` = 1 ORDER BY id desc LIMIT 0,4   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000380s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025192s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001739s ]
+
+[ 2017-06-18T23:37:47+08:00 ] 117.172.25.246 /ontheroad/index.php/Admin/Around/index/class/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000866s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002022s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_manager` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `d_manager` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `d_around_class` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `d_around_class` WHERE ( state=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `d_around` WHERE `class_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `d_around` WHERE `class_id` = 2 ORDER BY id desc LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000394s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024172s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024413s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001612s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006636s ]
+

@@ -1,0 +1,1433 @@
+[ 2017-12-31T01:47:16+08:00 ] ::1 /ontheroad/index.php/WeChat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000240s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined variable: option E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\WeChat\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `d_banner` [ RunTime:0.1066s ]
+SQL: SELECT * FROM `d_banner`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 89 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 94 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 99 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011215s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011239s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000234s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000255s ]
+
+[ 2017-12-31T01:47:24+08:00 ] ::1 /ontheroad/index.php/WeChat/Around/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000284s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_around_class` [ RunTime:0.0159s ]
+SQL: SELECT * FROM `d_around_class` WHERE ( state=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `d_around` ORDER BY id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\e81ec37e07f617b93f4a1d1b0153ce0d.php 第 79 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\e81ec37e07f617b93f4a1d1b0153ce0d.php 第 84 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\e81ec37e07f617b93f4a1d1b0153ce0d.php 第 89 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\e81ec37e07f617b93f4a1d1b0153ce0d.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000233s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000253s ]
+
+[ 2017-12-31T01:47:25+08:00 ] ::1 /ontheroad/index.php/WeChat/Around/detail/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000227s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0187s ]
+SQL: SELECT * FROM `d_around` WHERE ( id=11 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003943s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000245s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000265s ]
+
+[ 2017-12-31T01:47:34+08:00 ] ::1 /ontheroad/index.php/WeChat/Around/detail/id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0198s ]
+SQL: SELECT * FROM `d_around` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004717s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000280s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000303s ]
+
+[ 2017-12-31T01:47:43+08:00 ] ::1 /ontheroad/index.php/WeChat/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_banner` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `d_banner`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_room_type` [ RunTime:0.1079s ]
+SQL: SELECT * FROM `d_room_type` WHERE ( state=1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 131 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 136 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 141 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017959s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017982s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000258s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000284s ]
+
+[ 2017-12-31T01:47:46+08:00 ] ::1 /ontheroad/index.php/WeChat/Order/detail/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000289s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_room_type` [ RunTime:0.0193s ]
+SQL: SELECT * FROM `d_room_type` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 177 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 182 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 187 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 192 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014863s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014888s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000280s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000301s ]
+
+[ 2017-12-31T01:47:56+08:00 ] ::1 /ontheroad/index.php/WeChat/Around/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000268s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_around_class` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `d_around_class` WHERE ( state=1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `d_around` ORDER BY id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\e81ec37e07f617b93f4a1d1b0153ce0d.php 第 79 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\e81ec37e07f617b93f4a1d1b0153ce0d.php 第 84 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\e81ec37e07f617b93f4a1d1b0153ce0d.php 第 89 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\e81ec37e07f617b93f4a1d1b0153ce0d.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006145s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006175s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000252s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000280s ]
+
+[ 2017-12-31T01:47:59+08:00 ] ::1 /ontheroad/index.php/WeChat/Around/detail/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000262s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `d_around` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003942s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003970s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000231s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000253s ]
+
+[ 2017-12-31T01:48:04+08:00 ] ::1 /ontheroad/index.php/WeChat/MyCenter/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000227s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+NOTIC: [8] Undefined variable: userInfo E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 21 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 166 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 171 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 176 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 181 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013152s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013176s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000319s ]
+
+[ 2017-12-31T01:48:05+08:00 ] ::1 /ontheroad/index.php/WeChat/MyCenter/indexForMulti/type/2/typeName/%E6%97%85%E6%B8%B8%E6%89%8B%E5%86%8C
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000262s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_document_for_multi` [ RunTime:0.0238s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `d_document_for_multi` WHERE `type` = 2 AND `state` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `d_document_for_multi` WHERE `type` = 2 AND `state` = 1 ORDER BY time desc LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_document_for_multi` [ RunTime:0.0067s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000053s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\8b0f194200b280b8ba2656fbb6904a7e.php 第 59 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\8b0f194200b280b8ba2656fbb6904a7e.php 第 64 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\8b0f194200b280b8ba2656fbb6904a7e.php 第 69 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\8b0f194200b280b8ba2656fbb6904a7e.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004890s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004914s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000244s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000263s ]
+
+[ 2017-12-31T01:48:09+08:00 ] ::1 /ontheroad/index.php/WeChat/MyCenter/indexForSingle/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000225s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_document` [ RunTime:0.0226s ]
+SQL: SELECT * FROM `d_document` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 47 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 52 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 57 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009683s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009706s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000256s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000295s ]
+
+[ 2017-12-31T01:48:12+08:00 ] ::1 /ontheroad/index.php/WeChat/MyCenter/indexForSingle/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000228s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_document` [ RunTime:0.0206s ]
+SQL: SELECT * FROM `d_document` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 47 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 52 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 57 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004383s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000234s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000255s ]
+
+[ 2017-12-31T01:48:15+08:00 ] ::1 /ontheroad/index.php/WeChat/MyCenter/indexForSingle/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000224s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_document` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `d_document` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 47 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 52 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 57 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014194s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000235s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000254s ]
+
+[ 2017-12-31T01:48:18+08:00 ] ::1 /ontheroad/index.php/WeChat/MyCenter/indexForSingle/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000226s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_document` [ RunTime:0.0188s ]
+SQL: SELECT * FROM `d_document` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 47 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 52 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 57 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004238s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004260s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000231s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000251s ]
+
+[ 2017-12-31T01:48:21+08:00 ] ::1 /ontheroad/index.php/WeChat/MyCenter/indexForSingle/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000226s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_document` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `d_document` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 47 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 52 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 57 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004408s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004431s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000250s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000270s ]
+
+[ 2017-12-31T01:48:29+08:00 ] ::1 /ontheroad/index.php/WeChat/MyCenter/indexForMulti/type/1/typeName/%E7%B2%BE%E5%BD%A9%E5%9B%BE%E9%9B%86
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000226s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_document_for_multi` [ RunTime:0.0163s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `d_document_for_multi` WHERE `type` = 1 AND `state` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `d_document_for_multi` WHERE `type` = 1 AND `state` = 1 ORDER BY time desc LIMIT 0,10   [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `d_document_for_multi` [ RunTime:0.0076s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\8b0f194200b280b8ba2656fbb6904a7e.php 第 59 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\8b0f194200b280b8ba2656fbb6904a7e.php 第 64 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\8b0f194200b280b8ba2656fbb6904a7e.php 第 69 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\8b0f194200b280b8ba2656fbb6904a7e.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005267s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005290s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000238s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000258s ]
+
+[ 2017-12-31T01:48:33+08:00 ] ::1 /ontheroad/index.php/WeChat/MyCenter/detailForMulti?id=15&typeName=%E7%B2%BE%E5%BD%A9%E5%9B%BE%E9%9B%86
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000225s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_document_for_multi` [ RunTime:0.0186s ]
+SQL: SELECT * FROM `d_document_for_multi` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `d_document_for_multi` SET `title`='苹果即将测试无人驾驶汽车',`thumbnail`='/ontheroad/Uploads/gallery//58f32b1a33fc6.jpg',`content`='&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	看到题目，你的第一直觉会想到什么产品，没错就是汽车。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	现在，美国媒体Business&amp;nbsp;Insider给出的报道称，苹果已经在加州取得了测试无人驾驶汽车的资格，也就是他们可以在该州测试无人驾驶汽车。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	这个资格对苹果来说至关重要，因为这是他们推出自研汽车的第一步。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	&lt;span style=&quot;font-size:0px;line-height:0;&quot;&gt;&lt;/span&gt;&lt;img id=&quot;content-first-img&quot; src=&quot;http://uppic.fd.zol-img.com.cn/t_s500x2000/g5/M00/0B/0C/ChMkJljxfsKINliYAAHgX7bjrHwAAbrPgPlTYgAAeB3962.jpg&quot; class=&quot;subscibe-img&quot; /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	按照Business&amp;nbsp;Insider的说法，苹果一直都没有放弃对Apple&amp;nbsp;Car的研发，去年甚至还把已经退休的元老级人物Bob&amp;nbsp;Mansfield重新请出山，而现在这个资格再一次说明，苹果一直都在积极关注和开发无人驾驶汽车技术，当然这也是当下的最大热点，极有可能是下一个风口。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	有趣的是，苹果的合作伙伴&lt;a href=&quot;http://sj.zol.com.cn/xiaojukeji/&quot; class=&quot;hui14_line&quot;&gt;滴滴出行&lt;/a&gt;已经在苹果总部附近设立了自己的自动驾驶实验室。郭明池之前还曾爆料，苹果在增强现实领域的成果将会应用在无人驾驶技术上。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	苹果就是这样，迭代小创新提升用户体验，从而带来有竞争力的产品，这次的无人驾驶技术应该也是同样的套路，虽然Apple&amp;nbsp;Car还要经过漫长的测试，但是可以很负责的说，这款产品必定会是苹果史上最贵、最大的新品。
+&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	&lt;img src=&quot;http://uppic.fd.zol-img.com.cn/t_s500x2000/g5/M00/0B/0C/ChMkJ1jxfsGIG43xAAITTuil3IoAAbrPgPopzoAAhNm978.jpg&quot; class=&quot;subscibe-img&quot; /&gt;
+&lt;/p&gt;',`type`='1',`time`='2017-04-16 16:28:16',`hot_degress`='43',`state`='1' WHERE `id` = 15 [ RunTime:0.1428s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\49151893d6377102907c21f922b290e8.php 第 63 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\49151893d6377102907c21f922b290e8.php 第 68 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\49151893d6377102907c21f922b290e8.php 第 73 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\49151893d6377102907c21f922b290e8.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017054s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000933s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001019s ]
+
+[ 2017-12-31T01:48:54+08:00 ] ::1 /ontheroad/index.php/WeChat/MyCenter/indexForSingle/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000228s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_document` [ RunTime:0.0181s ]
+SQL: SELECT * FROM `d_document` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000047s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 47 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 52 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 57 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004184s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000211s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000230s ]
+
+[ 2017-12-31T01:48:57+08:00 ] ::1 /ontheroad/index.php/WeChat/MyCenter/indexForSingle/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000228s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_document` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `d_document` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 47 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 52 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 57 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004355s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004378s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000229s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000250s ]
+
+[ 2017-12-31T01:49:03+08:00 ] ::1 /ontheroad/index.php/WeChat/MyCenter/indexForSingle/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000264s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_document` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `d_document` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 47 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 52 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 57 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004118s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000234s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000256s ]
+
+[ 2017-12-31T01:49:06+08:00 ] ::1 /ontheroad/index.php/WeChat/MyCenter/indexForSingle/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000225s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_document` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `d_document` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 47 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 52 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 57 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004416s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004439s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000227s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000248s ]
+
+[ 2017-12-31T01:49:16+08:00 ] ::1 /ontheroad/index.php/WeChat/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined variable: option E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\WeChat\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `d_banner` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `d_banner`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 89 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 94 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 99 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004953s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000283s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000303s ]
+
+[ 2017-12-31T01:49:34+08:00 ] ::1 /ontheroad/index.php/WeChat/Regist/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] include(../lib/WxPay.Api.php): failed to open stream: No such file or directory E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\WxPay.JsApiPay.php 第 2 行.
+NOTIC: [2] include(): Failed opening '../lib/WxPay.Api.php' for inclusion (include_path='.;C:\php\pear') E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\WxPay.JsApiPay.php 第 2 行.
+NOTIC: [2] include(../lib/WxPay.Notify.php): failed to open stream: No such file or directory E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\notify.php 第 9 行.
+NOTIC: [2] include(): Failed opening '../lib/WxPay.Notify.php' for inclusion (include_path='.;C:\php\pear') E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\notify.php 第 9 行.
+
+[ 2017-12-31T01:49:56+08:00 ] ::1 /ontheroad/index.php/WeChat/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000226s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_banner` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `d_banner`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `d_room_type` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `d_room_type` WHERE ( state=1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 131 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 136 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 141 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018557s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018581s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000292s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000319s ]
+
+[ 2017-12-31T01:50:15+08:00 ] ::1 /ontheroad/index.php/WeChat/Order/detail/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000269s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_room_type` [ RunTime:0.0149s ]
+SQL: SELECT * FROM `d_room_type` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 177 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 182 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 187 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 192 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000320s ]
+
+[ 2017-12-31T01:50:37+08:00 ] ::1 /ontheroad/index.php/WeChat/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined variable: option E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\WeChat\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `d_banner` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `d_banner`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 89 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 94 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 99 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005668s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000232s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000251s ]
+
+[ 2017-12-31T01:50:54+08:00 ] ::1 /ontheroad/index.php/WeChat/MyCenter/indexForMulti/type/4/typeName/%E6%88%B7%E5%A4%96%E8%B7%AF%E7%BA%BF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_document_for_multi` [ RunTime:0.0126s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `d_document_for_multi` WHERE `type` = 4 AND `state` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `d_document_for_multi` WHERE `type` = 4 AND `state` = 1 ORDER BY time desc LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_document_for_multi` [ RunTime:0.0068s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\8b0f194200b280b8ba2656fbb6904a7e.php 第 59 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\8b0f194200b280b8ba2656fbb6904a7e.php 第 64 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\8b0f194200b280b8ba2656fbb6904a7e.php 第 69 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\8b0f194200b280b8ba2656fbb6904a7e.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004737s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004758s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000241s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000260s ]
+
+[ 2017-12-31T01:51:09+08:00 ] ::1 /ontheroad/index.php/WeChat/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_banner` [ RunTime:0.0143s ]
+SQL: SELECT * FROM `d_banner`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_room_type` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `d_room_type` WHERE ( state=1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 131 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 136 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 141 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018369s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018392s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000347s ]
+
+[ 2017-12-31T01:51:22+08:00 ] ::1 /ontheroad/index.php/WeChat/Order/detail/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000281s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_room_type` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `d_room_type` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 177 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 182 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 187 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 192 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015610s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015637s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000311s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000337s ]
+
+[ 2017-12-31T01:51:44+08:00 ] ::1 /ontheroad/index.php/WeChat/Around/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000257s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_around_class` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `d_around_class` WHERE ( state=1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `d_around` ORDER BY id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\e81ec37e07f617b93f4a1d1b0153ce0d.php 第 79 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\e81ec37e07f617b93f4a1d1b0153ce0d.php 第 84 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\e81ec37e07f617b93f4a1d1b0153ce0d.php 第 89 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\e81ec37e07f617b93f4a1d1b0153ce0d.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005896s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000261s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000283s ]
+
+[ 2017-12-31T01:51:56+08:00 ] ::1 /ontheroad/index.php/WeChat/MyCenter/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+NOTIC: [8] Undefined variable: userInfo E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 21 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 166 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 171 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 176 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 181 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012770s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012797s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000245s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000271s ]
+
+[ 2017-12-31T01:51:59+08:00 ] ::1 /ontheroad/index.php/WeChat/Around/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000226s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_around_class` [ RunTime:0.0188s ]
+SQL: SELECT * FROM `d_around_class` WHERE ( state=1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `d_around` ORDER BY id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\e81ec37e07f617b93f4a1d1b0153ce0d.php 第 79 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\e81ec37e07f617b93f4a1d1b0153ce0d.php 第 84 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\e81ec37e07f617b93f4a1d1b0153ce0d.php 第 89 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\e81ec37e07f617b93f4a1d1b0153ce0d.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005963s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005991s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000241s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000260s ]
+
+[ 2017-12-31T01:52:02+08:00 ] ::1 /ontheroad/index.php/WeChat/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_banner` [ RunTime:0.0183s ]
+SQL: SELECT * FROM `d_banner`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_room_type` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `d_room_type` WHERE ( state=1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 131 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 136 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 141 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019048s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019073s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000241s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000260s ]
+
+[ 2017-12-31T01:52:03+08:00 ] ::1 /ontheroad/index.php/WeChat/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000224s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined variable: option E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\WeChat\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `d_banner` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `d_banner`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 89 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 94 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 99 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005471s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005497s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000253s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000272s ]
+
+[ 2017-12-31T13:33:40+08:00 ] ::1 /ontheroad/index.php/WeChat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011257s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined variable: option E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\WeChat\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `d_banner` [ RunTime:0.0765s ]
+SQL: SELECT * FROM `d_banner`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003199s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 89 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 94 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 99 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.213592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.213638s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.019242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018705s ]
+
+[ 2017-12-31T13:34:11+08:00 ] ::1 /ontheroad/index.php/WeChat/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000240s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_banner` [ RunTime:0.0184s ]
+SQL: SELECT * FROM `d_banner`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_room_type` [ RunTime:0.0433s ]
+SQL: SELECT * FROM `d_room_type` WHERE ( state=1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 131 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 136 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 141 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037568s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037595s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2017-12-31T13:41:23+08:00 ] ::1 /ontheroad/index.php/WeChat/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000257s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined variable: option E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\WeChat\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `d_banner` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `d_banner`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 89 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 94 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 99 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011161s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011184s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000242s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000260s ]
+
+[ 2017-12-31T13:41:31+08:00 ] ::1 /ontheroad/index.php/WeChat/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_banner` [ RunTime:0.0157s ]
+SQL: SELECT * FROM `d_banner`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_room_type` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `d_room_type` WHERE ( state=1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 131 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 136 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 141 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018293s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000323s ]
+
+[ 2017-12-31T13:41:41+08:00 ] ::1 /ontheroad/index.php/WeChat/Order/detail/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_room_type` [ RunTime:0.0155s ]
+SQL: SELECT * FROM `d_room_type` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 177 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 182 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 187 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 192 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041174s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000265s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000288s ]
+
+[ 2017-12-31T14:22:11+08:00 ] ::1 /ontheroad/index.php/WeChat/Order/detail/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000351s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_room_type` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `d_room_type` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 177 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 182 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 187 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 192 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022579s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022605s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000336s ]
+
+[ 2017-12-31T14:28:16+08:00 ] ::1 /ontheroad/index.php/WeChat/Order/detail/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_room_type` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `d_room_type` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 177 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 182 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 187 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 192 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021031s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021056s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000362s ]
+
+[ 2017-12-31T15:13:19+08:00 ] ::1 /ontheroad/index.php/WeChat/Order/detail/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000276s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_room_type` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `d_room_type` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 177 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 182 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 187 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 192 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023880s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023905s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000402s ]
+
+[ 2017-12-31T15:24:15+08:00 ] ::1 /ontheroad/index.php/WeChat/Order/detail/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000279s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_room_type` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `d_room_type` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 177 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 182 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 187 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 192 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024257s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024281s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000361s ]
+
+[ 2017-12-31T15:27:42+08:00 ] ::1 /ontheroad/index.php/WeChat/Order/detail/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_room_type` [ RunTime:0.0187s ]
+SQL: SELECT * FROM `d_room_type` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 177 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 182 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 187 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 192 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021107s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021135s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000405s ]
+
+[ 2017-12-31T15:27:50+08:00 ] ::1 /ontheroad/index.php/WeChat/Order/detail/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_room_type` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `d_room_type` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 177 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 182 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 187 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 192 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016871s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000389s ]
+
+[ 2017-12-31T15:27:52+08:00 ] ::1 /ontheroad/index.php/WeChat/Order/detail/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000259s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_room_type` [ RunTime:0.0168s ]
+SQL: SELECT * FROM `d_room_type` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 177 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 182 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 187 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 192 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017774s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017801s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000246s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000267s ]
+
+[ 2017-12-31T15:28:19+08:00 ] ::1 /ontheroad/index.php/WeChat/Order/detail/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_room_type` [ RunTime:0.0178s ]
+SQL: SELECT * FROM `d_room_type` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 177 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 182 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 187 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 192 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000388s ]
+
+[ 2017-12-31T16:37:26+08:00 ] 127.0.0.1 /ontheroad/index.php/WeChat/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_banner` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `d_banner`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `d_room_type` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `d_room_type` WHERE ( state=1 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 131 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 136 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 141 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027493s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027518s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000170s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000328s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000352s ]
+
+[ 2017-12-31T16:37:29+08:00 ] 127.0.0.1 /ontheroad/index.php/WeChat/Order/detail/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_room_type` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `d_room_type` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 177 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 182 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 187 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 192 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016474s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016499s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000278s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000300s ]
+
+[ 2017-12-31T16:37:36+08:00 ] 127.0.0.1 /ontheroad/index.php/WeChat/Order/detail/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000251s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_room_type` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `d_room_type` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 177 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 182 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 187 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 192 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016179s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000278s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000304s ]
+
+[ 2017-12-31T16:37:45+08:00 ] 127.0.0.1 /ontheroad/index.php/WeChat/Order/detail/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_room_type` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `d_room_type` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 177 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 182 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 187 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\685c5635b2675dcce0b39d669f85960a.php 第 192 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015770s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015793s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000260s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000288s ]
+
+[ 2017-12-31T16:42:13+08:00 ] 127.0.0.1 /ontheroad/index.php/WeChat/MyCenter/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Undefined variable: userInfo E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 21 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 166 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 171 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 176 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' E:\phpStudy\PHPTutorial\WWW\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 181 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025113s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000405s ]
+

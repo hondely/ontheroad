@@ -1,0 +1,40 @@
+<include file="Public:header"/>
+
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/WeChat/css/aui-slide.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/WeChat/css/order/style.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/WeChat/css/MyCenter/wp-list-view.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/common/css/wp-color.css" />
+
+<header id="header" class="aui-bar aui-bar-nav aui-bar-light">
+    <a href="javascript:history.back(1);" class="aui-pull-left aui-btn">
+        <span class="aui-iconfont aui-icon-left"></span>
+    </a>
+    <div  class="aui-title ">{$typeName}</div>
+</header>
+
+<div id="content"  class="aui-content aui-margin-b-15" >
+    <volist name="list" id="vo"  mod="2" key="k">
+        <div class="wp-list-item wp-btn" onclick="wpBase.tab('MyCenter\/detailForMulti?id={$vo.id}&typeName={$typeName}')">
+            <div class="wp-list-item-img-div">
+                <img alt="{$vo.title}" src="{$vo.thumbnail}">
+            </div>
+            <div class="wp-list-item-info-div">
+                <div>
+                    {$vo.title|subtext='25'}
+                </div>
+                <div >
+                    <!--<span class="wp-color-silver">{$vo.time}</span>-->
+                    <span class="wp-color-silver aui-iconfont aui-icon-like">{$vo.hot_degress}</span>
+                </div>
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+    </volist>
+</div>
+
+<script type="text/javascript" src="__PUBLIC__/WeChat/js/jquery.min.js" ></script>
+<script type="text/javascript" src="__PUBLIC__/WeChat/js/aui-slide.js"></script>
+<script type="text/javascript">
+    auiSliderHeight="200px";
+</script>
+<include file="Public:footer"/>

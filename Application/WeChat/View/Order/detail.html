@@ -1,0 +1,156 @@
+<include file="Public:header"/>
+
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/WeChat/css/aui-slide.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/WeChat/css/order/style.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/WeChat/css/order/wp-tab.css" />
+<!--<link rel="stylesheet" type="text/css" href="__PUBLIC__/WeChat/css/order/163css.css" />-->
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/WeChat/css/wp-calendar.css" />
+
+<header id="header" class="aui-bar aui-bar-nav aui-bar-light">
+    <a href="javascript:history.back(1);" class="aui-pull-left aui-btn">
+        <span class="aui-iconfont aui-icon-left"></span>
+    </a>
+    <div  class="aui-title ">{$info.name}</div>
+</header>
+
+<div id="content"   class="aui-content aui-margin-b-15 " >
+    <div class="wp-bg-white">
+        <img style="display: block;" class="wp-width-100-percent" src="{$info.thumbnail}">
+    </div>
+
+    <div  class="wp-tab-box">
+        <div class="wp-tab-box-top">
+            <div id="wp-tab-box-top-nav" class="wp-tab-box-top-nav">
+                <div class="wp-tab-box-top-nav-on wp-btn">房型介绍</div>
+                <div class="wp-btn">预定</div>
+                <span class="wp-clear-both"></span>
+            </div>
+            <span  id="wp-tab-box-top-line" class="wp-tab-box-top-line"></span>
+        </div>
+
+        <div  id="wp-tab-box-content" class="wp-tab-box-content  aui-margin-t-15 wp-margin-b-30">
+
+            <div class="wp-tab-box-content-box">
+                <div class="wp-border-radius-5 wp-bg-white ">
+                    <div id="infoContent"  class="wp-pandding-a-15 wp-kindeditor-content" >
+                        {$info.detail}
+                    </div>
+                </div>
+             </div>
+
+            <div class="wp-tab-box-content-box">
+                <div class="wp-border-radius-5 wp-bg-white">
+                    <div class="wp-pandding-a-15" >
+                        <div class="wp-order-date">
+                            <div onclick="orderDateStart()" class="wp-order-date-start">
+                                <h3>入住时间</h3>
+                                <span id="startDate">2016-05-02</span>
+                                <!--<span >(周四)</span>-->
+                            </div>
+                            <div  onclick="orderDateEnd()" class="wp-order-date-end">
+                                <h3>退房时间</h3>
+                                <span id="endDate">2016-05-02</span>
+                                <!--<span >(周五)</span>-->
+                            </div>
+                            <span class="wp-clear-both"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="wp-border-radius-5 wp-bg-white  aui-margin-t-15">
+                    <div class="wp-pandding-a-15 wp-width-100-percent wp-order-info" >
+
+                        <div class="wp-width-100-percent  wp-form-inline">
+                            <div class="wp-form-inline-text" >住几间</div>
+                            <div class="wp-form-inline-input" >
+                                <select>
+                                    <option value="1">1间</option>
+                                    <option value="2">2间</option>
+                                </select>
+                            </div>
+                            <span class="wp-clear-both"></span>
+                        </div>
+
+                        <div class="wp-width-100-percent aui-margin-t-15">
+                            <div class="wp-form-inline-text">手机号</div>
+                            <div class="wp-form-inline-input">
+                                <input type="number"  placeholder="用于预定房间">
+                            </div>
+                            <span class="wp-clear-both"></span>
+                        </div>
+
+                        <div class="wp-width-100-percent aui-margin-t-15" >
+                            <div class="wp-form-inline-text">入住人</div>
+                            <div class="wp-form-inline-input">
+                                <input type="text"  placeholder="姓名，只需填写一人">
+                            </div>
+                            <span class="wp-clear-both"></span>
+                        </div>
+
+                        <div class="wp-width-100-percent aui-margin-t-15">
+                            <div class="wp-form-inline-text" >房费</div>
+                            <div class="wp-form-inline-input" >
+                                <div class="wp-order-total"><span >￥</span><span id="wp-order-total">{$info.price}</span></div>
+                            </div>
+                            <span class="wp-clear-both"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="wp-border-radius-5 wp-bg-white  aui-margin-t-15">
+                    <div class="wp-pandding-a-15 wp-width-100-percent wp-order-pay-way" >
+                        <div class="aui-form">
+                            <div class="aui-input-row">
+                                <label class="aui-input-addon">微信支付</label>
+                                <div class="aui-pull-right"><input class="aui-radio" checked="checked" type="radio" name="demo1"></div>
+                            </div>
+                            <div class="aui-input-row aui-margin-t-15">
+                                <label class="aui-input-addon">到店支付</label>
+                                <div class="aui-pull-right"><input class="aui-radio" type="radio" name="demo1" ></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div onclick="wxPay()" class="wp-border-radius-5 wp-bg-white  aui-margin-t-15">
+                    <div class="aui-btn aui-btn-danger aui-btn-block my-btn">提交订单</div>
+                </div>
+            </div>
+
+            <span class="wp-clear-both"></span>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="__PUBLIC__/WeChat/js/wp-calendar.js"></script>
+<script type="text/javascript" src="__PUBLIC__/WeChat/js/jquery.min.js" ></script>
+<script type="text/javascript" src="__PUBLIC__/WeChat/js/wp-tab.js"></script>
+
+<script type="text/javascript" src="__PUBLIC__/WeChat/js/zepto.js" ></script>
+<script type="text/javascript" src="__PUBLIC__/WeChat/js/aui-slide.js"></script>
+
+<script type="text/javascript">
+    auiSliderHeight="200px";
+//    wpCalender.regist(document.getElementById('startDate'));
+//    wpCalender.regist(document.getElementById('endDate'));
+
+    function orderDateStart(){
+        var startDate=document.getElementById('startDate');
+        wpCalender.show(startDate.innerHTML,function(ret){
+            var date=new Date(ret);
+            startDate.innerHTML= date.getFullYear()+"-"+(date.getMonth()+1)+"-"+date.getDate();
+        })
+    }
+
+    function orderDateEnd(){
+        var endDate=document.getElementById('endDate');
+        wpCalender.show(endDate.innerHTML,function(ret){
+            var date=new Date(ret);
+            endDate.innerHTML= date.getFullYear()+"-"+(date.getMonth()+1)+"-"+date.getDate();
+        })
+    }
+
+    function wxPay(){
+
+    }
+</script>
+<include file="Public:footer"/>

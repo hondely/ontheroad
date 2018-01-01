@@ -1,0 +1,81 @@
+<include file="Layout:header"/>
+<link rel="stylesheet" href="__PUBLIC__/Admin/IndexManage/css/style.css" />
+<link rel="stylesheet" href="__PUBLIC__/common/wpUploader/css/wp-uploader.css" />
+<style>
+    .wp-icon-new{
+        /*height: 100px;*/
+    }
+</style>
+
+<div class="container">
+    <div class="row">
+        <ol class="breadcrumb">
+            <li >首页</li>
+            <li >文档中心</li>
+            <li>撰写文档</li>
+            <li>{$typeName}</li>
+        </ol>
+    </div>
+</div>
+
+<div class="container wp-margin-bottom-50px">
+
+    <div class="row">
+        <div class="col-sm-10">
+            <volist name="list" id="vo"  mod="2" key="k">
+                <div class="col-sm-6 col-md-3 wp-icon-new" >
+                    <div class="thumbnail">
+                        <img alt="{$vo.name}" src="{$vo.thumbnail}" data-holder-rendered="true" style="height: 108px;width: 100%; display: block;">
+                        <div class="caption">
+                            <p style="min-height: 3em;">{$vo.title|subtext='20'}</p>
+                            <h4 >{$vo['time']|subtext='10'}</h4>
+                            <p>
+                                <div onclick="detail('{:U("detail",array("id"=>$vo['id'],"typeName"=>$typeName))}','{$vo["id"]}','{$typeName}')"  class="btn btn-primary" >编辑</div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </volist>
+
+            <div class="row">
+                <div class="col-sm-12 col-md-12 text-center">
+                    {$page}
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-2">
+            <button type="button" onclick="add('{:U("addForMulti",array("type"=>$type,"typeName"=>$typeName))}','roomService','{$typeName}')" class="btn btn-info">&nbsp;&nbsp;新增&nbsp;&nbsp;</button>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="__PUBLIC__/common/wpUploader/js/wp-uploader-core.js"></script>
+<script type="text/javascript" src="__PUBLIC__/common/wpUploader/js/wp-uploader.js"></script>
+<script type="text/javascript" src="__PUBLIC__/common/js/wp-globals.js"></script>
+
+<script>
+
+    function detail(url,id,title){
+//        var uid = Date.parse(Date());
+//        id=uid+id;
+        id='multi'+id;
+        top.topManager.openPage({
+            id : id,
+            href :url,
+            title :"编辑"+title
+        });
+    }
+
+    function add(url,id,title){
+        var uid = Date.parse(Date());
+        id=uid+id;
+        top.topManager.openPage({
+            id : id,
+            href :url,
+            title :"新增"+title
+        });
+    }
+
+</script>
+<include file="Layout:footer"/>

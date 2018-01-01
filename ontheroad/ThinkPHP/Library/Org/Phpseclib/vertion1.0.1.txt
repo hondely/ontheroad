@@ -1,0 +1,5 @@
+PHP 生成公钥密钥 
+PHP需要扩展openssl
+
+官网
+http://phpseclib.sourceforge.net/

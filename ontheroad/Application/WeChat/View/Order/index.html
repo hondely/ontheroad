@@ -1,0 +1,114 @@
+<include file="Public:header"/>
+
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/WeChat/css/aui-slide.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/WeChat/css/order/style.css" />
+
+<header id="header" class="aui-bar aui-bar-nav aui-bar-light">
+    <a href="javascript:history.back(1);" class="aui-pull-left aui-btn">
+        <span class="aui-iconfont aui-icon-left"></span>
+    </a>
+    <div  class="aui-title ">旅舍预定</div>
+</header>
+
+<div id="content"  class="aui-content aui-margin-b-15" >
+
+    <div id="aui-slide" class="wp-width-100-percent" >
+        <div class="aui-slide-wrap" >
+            <volist name="bannerlist" id="vo" >
+                <div onclick="wpBase.href('{$vo.url}')" class="aui-slide-node bg-dark">
+                    <img  src="{$vo.pic}" />
+                </div>
+            </volist>
+        </div>
+        <div class="aui-slide-page-wrap"><!--分页容器--></div>
+    </div>
+
+    <div class="wp-car-list">
+
+        <volist name="roomTypeList" id="vo" >
+            <div onclick="wpBase.href('Order/detail',{id:'{$vo["id"]}'})"  class="aui-margin-l-15 aui-margin-r-15 wp-btn wp-car-list-item wp-border-radius-5" >
+                <img  class="wp-width-100-percent" src="{$vo.thumbnail}">
+                <div >
+                    <div class="wp-about">
+                        <div  class="wp-car-list-item-describe">{$vo.brief}</div>
+                        <div class="wp-car-list-item-titel">{$vo.name}<span class="aui-text-danger wp-font-weigh-bold">&nbsp;&nbsp;￥{$vo.price}</span></div>
+                    </div>
+                    <div class="wp-order">
+                        <div   class="aui-btn wp-order-btn">预定</div>
+                    </div>
+                    <div class="wp-clear-both">
+                    </div>
+                </div>
+            </div>
+        </volist>
+
+        <!--<div onclick="wpBase.href('Order/detail',{asd:'234'})"  class="aui-margin-l-15 aui-margin-r-15 wp-btn wp-car-list-item wp-border-radius-5" >-->
+            <!--<img class="wp-width-100-percent" src="__PUBLIC__/WeChat/images/order/item1.png">-->
+            <!--<div >-->
+                <!--<div class="wp-about">-->
+                    <!--<div  class="wp-car-list-item-describe">独立卫浴，私人存储柜，24小时热水，空调。</div>-->
+                    <!--<div class="wp-car-list-item-titel">床位4人间<span class="aui-text-danger wp-font-weigh-bold">&nbsp;&nbsp;￥55</span></div>-->
+                <!--</div>-->
+                <!--<div class="wp-order">-->
+                    <!--<div   class="aui-btn wp-order-btn">预定</div>-->
+                <!--</div>-->
+                <!--<div class="wp-clear-both">-->
+                <!--</div>-->
+            <!--</div>-->
+         <!--</div>-->
+
+        <!--<div  class="aui-margin-l-15 aui-margin-r-15 wp-btn wp-car-list-item wp-border-radius-5" >-->
+            <!--<img class="wp-width-100-percent" src="__PUBLIC__/WeChat/images/order/item2.png">-->
+            <!--<div>-->
+                <!--<div class="wp-about">-->
+                    <!--<div  class="wp-car-list-item-describe">精致的房间设施用品，人性化贴心的服务。</div>-->
+                    <!--<div  class="wp-car-list-item-titel">臻选标准间<span class="aui-text-danger wp-font-weigh-bold">&nbsp;&nbsp;￥198</span></div>-->
+                <!--</div>-->
+                <!--<div class="wp-order">-->
+                    <!--<div class="aui-btn wp-order-btn">预定</div>-->
+                <!--</div>-->
+                <!--<div class="wp-clear-both">-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <!--<div  class="aui-margin-l-15 aui-margin-r-15 wp-btn wp-car-list-item wp-border-radius-5" >-->
+            <!--<img class="wp-width-100-percent" src="__PUBLIC__/WeChat/images/order/item3.png">-->
+            <!--<div >-->
+                <!--<div class="wp-about">-->
+                    <!--<div  class="wp-car-list-item-describe">精致的房间设施用品，人性化贴心的服务。</div>-->
+                    <!--<div  class="wp-car-list-item-titel">雅致大床房<span class="aui-text-danger wp-font-weigh-bold">&nbsp;&nbsp;￥188</span></div>-->
+                <!--</div>-->
+                <!--<div class="wp-order">-->
+                    <!--<div   class="aui-btn wp-order-btn">预定</div>-->
+                <!--</div>-->
+                <!--<div class="wp-clear-both">-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <!--<div  class="aui-margin-l-15 aui-margin-r-15 wp-btn wp-car-list-item wp-border-radius-5" >-->
+            <!--<img class="wp-width-100-percent" src="__PUBLIC__/WeChat/images/order/item4.png">-->
+            <!--<div>-->
+                <!--<div  class="wp-about">-->
+                    <!--<div class="wp-car-list-item-describe">深度定制主题房，悦旅行悦生活。</div>-->
+                    <!--<div class="wp-car-list-item-titel">熊猫王国主题房<span class="aui-text-danger wp-font-weigh-bold">&nbsp;&nbsp;￥358</span></div>-->
+                <!--</div>-->
+                <!--<div class="wp-order">-->
+                    <!--<div class="aui-btn wp-order-btn">预定</div>-->
+                <!--</div>-->
+                <!--<div class="wp-clear-both">-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+
+    </div>
+
+</div>
+
+<script type="text/javascript" src="__PUBLIC__/WeChat/js/jquery.min.js" ></script>
+<script type="text/javascript" src="__PUBLIC__/WeChat/js/aui-slide.js"></script>
+<script type="text/javascript">
+    auiSliderHeight="200px";
+</script>
+<include file="Public:footer"/>

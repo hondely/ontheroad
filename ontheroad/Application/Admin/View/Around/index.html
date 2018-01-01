@@ -1,0 +1,93 @@
+<include file="Layout:header"/>
+<link rel="stylesheet" href="__PUBLIC__/Admin/Around/css/style.css" />
+<div class="container">
+    <div class="row">
+        <ol class="breadcrumb">
+            <li >首页</li>
+            <li >追梦良品</li>
+            <li>良品管理</li>
+        </ol>
+    </div>
+</div>
+
+<div class="container wp-margin-bottom-50px">
+    <div class="wp-left-box">
+        <ul class="nav nav-pills nav-stacked wp-left-box-nav"  role="tablist" >
+            <li role="presentation" class="active" onclick="openClassList()" ><a href="#"><i class="icon-edit"></i>&nbsp;&nbsp;类别管理</a></li>
+            <li role="presentation" class="active" onclick="add('{:U("Around/add",array('id'=>$selectClass))}')"><a href="#"><i class="icon-plus"></i>&nbsp;&nbsp;添加</a></li>
+        </ul>
+        <div style="overflow: auto;height: 390px;">
+            <ul class="nav nav-pills nav-stacked wp-left-box-nav"  role="tablist" >
+                <volist name="classList" id="vo"  mod="2" key="k">
+                    <if condition="$vo.id eq $selectClass">
+                        <li role="presentation" class="active"><a href="{:U('Around/index',array('id'=>$vo['id']))}">{$vo.name}</a></li>
+                        <else />
+                        <li role="presentation" ><a  href="{:U('Around/index',array('class'=>$vo['id']))}">{$vo.name}</a></li>
+                    </if>
+                </volist>
+            </ul>
+        </div>
+    </div>
+
+    <div class="wp-right-box">
+        <volist name="aroundList" id="vo"  mod="2" key="k">
+            <div class="col-sm-6 col-md-3">
+                <div class="thumbnail">
+                    <img alt="{$vo.name}" src="{$vo.thumbnail}" data-holder-rendered="true" style="height: 200px; width: 100%; display: block;">
+                    <div class="caption">
+                        <h3>{$vo.name}</h3>
+                        <p>{$vo.brief}</p>
+                        <p style="color: red;font-weight: bolder;">¥{$vo.price}</p>
+                        <p>
+                            <div onclick="openDetail('{:U('Around/detail',array('id'=>$vo['id']))}')" class="btn btn-primary" >详情</div>
+                            <div onclick="openSub('http://www.baidu.com/')" class="btn btn-default">删除</div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </volist>
+        <div class="row">
+            <div class="col-sm-12 col-md-12 text-center">
+                {$page}
+            </div>
+        </div>
+    </div>
+    <div style="clear: both;"></div>
+</div>
+
+<script type="text/javascript" src="__PUBLIC__/common/wpUploader/js/wp-uploader-core.js"></script>
+<script type="text/javascript" src="__PUBLIC__/common/wpUploader/js/wp-uploader.js"></script>
+<script type="text/javascript" src="__PUBLIC__/common/js/wp-globals.js"></script>
+
+<script>
+
+    function openDetail(url){
+        var uid = Date.parse(Date());
+        top.topManager.openPage({
+            id : uid,
+            href :url,
+            title : '详情'
+        });
+    }
+
+    function openClassList(){
+        var url='{:U("Around/classList")}';
+        top.topManager.openPage({
+            id : 'AroundClassList',
+            href :url,
+            title : '类别管理'
+        });
+    }
+
+    function add(url){
+        var uid = Date.parse(Date());
+        top.topManager.openPage({
+            id : uid,
+            href :url,
+            title : '添加良品'
+        });
+    }
+
+
+</script>
+<include file="Layout:footer"/>

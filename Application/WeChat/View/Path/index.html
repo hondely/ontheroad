@@ -1,0 +1,72 @@
+<include file="Public:header"/>
+
+
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/WeChat/css/aui-slide.css" />
+
+<div id="content"  class="aui-content aui-margin-b-15" style="display: table;vertical-align: middle;">
+
+    <div id="aui-slide" style="width: 100%;">
+        <div class="aui-slide-wrap" >
+            <div class="aui-slide-node bg-dark">
+                <img  src="__PUBLIC__/WeChat/images/l5.png" />
+            </div>
+            <div  class="aui-slide-node bg-dark">
+                <img src="__PUBLIC__/WeChat/images/l6.png" />
+            </div>
+            <div class="aui-slide-node bg-dark">
+                <img src="__PUBLIC__/WeChat/images/l7.png" />
+            </div>
+        </div>
+        <div class="aui-slide-page-wrap"><!--分页容器--></div>
+    </div>
+
+    <div style="display: table-row;">
+        <div style="display: table;width: 100%;height: 100%;vertical-align: middle;">
+            <div  style="display: table-cell;width: 50%;vertical-align: middle;text-align: center;border: 1px solid white;">
+                <div class="wp-btn" style="height: 50%;width:100%;display: table;vertical-align: middle;text-align: center;background-size: 100% 100%;background-repeat: no-repeat; background-image: url('__PUBLIC__/WeChat/images/order.png');border: 1px solid white;">
+                    <div style="display: table-cell;vertical-align: middle;text-align: center;">
+                        <div class="wp-text-white">
+                            <span class="wp-iconfont  wp-icon-order aui-font-size-20"></span>
+                        </div>
+                        <div class="wp-text-white">旅舍预定</div>
+                    </div>
+                </div>
+
+                <div class="wp-btn" style="height: 50%;width:100%;display: table;vertical-align: middle;text-align: center;background-size: 100% 100%;background-repeat: no-repeat; background-image: url('__PUBLIC__/WeChat/images/path.png');border: 1px solid white;">
+                    <div style="display: table-cell;vertical-align: middle;text-align: center;">
+                        <div class="wp-text-white">
+                            <span class="wp-iconfont wp-icon-path aui-font-size-20"></span>
+                        </div>
+                        <div class="wp-text-white">路线制定</div>
+                    </div>
+                </div>
+            </div>
+            <div class="wp-btn" style="display: table-cell;width: 50%;vertical-align: middle;text-align: center;border: 1px solid white;background-size: 100% 100%;background-repeat: no-repeat; background-image: url('__PUBLIC__/WeChat/images/around.png') ;">
+                <div class="wp-text-white">
+                    <span class="aui-iconfont aui-icon-cart aui-font-size-20"></span>
+                </div>
+                <div class="wp-text-white">周边</div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+<script type="text/javascript" src="__PUBLIC__/WeChat/js/jquery.min.js" ></script>
+<script type="text/javascript" src="__PUBLIC__/WeChat/js/aui-slide.js"></script>
+<script type="text/javascript">
+    var auiSlide = new auiSlide({
+        container:document.getElementById("aui-slide"),
+        // "width":300,
+        "height":'100px',
+        "speed":500,
+        "autoPlay": 3000, //自动播放
+        "loop":true,
+        "pageShow":true,
+        "pageStyle":'dot',
+        'dotPosition':'center'
+    })
+</script>
+
+<include file="Public:footer"/>

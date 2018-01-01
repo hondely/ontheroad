@@ -1,0 +1,47 @@
+.wp-tab-box{
+
+}
+.wp-tab-box-top{
+    background-color: white;
+}
+
+.wp-tab-box-top-nav{
+    height:3em;
+    background-color: white;
+    text-align: center;
+}
+
+.wp-tab-box-top-nav-on{
+    color: red;
+    -webkit-transition: color .3s ease-in;
+}
+
+.wp-tab-box-top-nav div{
+    padding-bottom: 0.5em;
+    padding-top:  0.5em;
+    background-color: white;
+    text-align: center;
+    float: left;
+    height: 100%;
+    /*width: 50%;*/
+}
+
+.wp-tab-box-top-line{
+    /*width: 50%;*/
+    height: 1px;
+    background-color: red;
+    /*margin-left: 50%;*/
+    display: block;
+    -webkit-transition: margin-left .3s ease-in;
+}
+
+.wp-tab-box-content{
+    -webkit-transition: margin-left .3s ease-in;
+}
+
+.wp-tab-box-content-box{
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}

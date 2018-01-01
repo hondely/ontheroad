@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="UTF-8">
+  <title>Sample document</title>
+  <link rel="stylesheet" href="style1.css">
+  </head>
+	<body>
+		<textarea id="editor_id" name="content" style="width:700px;height:300px;">
+&lt;strong&gt;HTML内容&lt;/strong&gt;
+</textarea>
+<button class="btn btn-lg btn-danger " type="submit" onclick="submit()">提交</button>
+	</body>
+	<script charset="utf-8" src="./kindeditor-all.js"></script>
+	<script charset="utf-8" src="./lang/lang/zh-CN.js"></script>
+	<script>
+	KindEditor.ready(function(K) {
+			window.editor = K.create('#editor_id');
+	});
+	
+	function submit()
+    {
+		// 取得HTML内容
+		html = editor.html();
+
+		// 同步数据后可以直接取得textarea的value
+		editor.sync();
+		html = document.getElementById('editor_id').value; // 原生API
+		html = K('#editor_id').val(); // KindEditor Node API
+		html = $('#editor_id').val(); // jQuery
+
+		// 设置HTML内容
+		editor.html('HTML内容');
+        
+		/*var content = $('#summernote').summernote('code');
+        data = new FormData();
+        data.append("content", content);
+
+        alert('23');
+        $.ajax({
+            data: data,
+            type: "POST",
+            url: "{:U('saveRichText')}",
+            cache: false,
+            contentType: false,
+            processData: false,
+            success: function(ret) {
+//                editor.insertImage(welEditable, url);
+                alert(ret);
+            }
+        });*/
+    }
+	</script>
+</html>

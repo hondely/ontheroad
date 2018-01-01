@@ -1,0 +1,66 @@
+<include file="Public:header"/>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/WeChat/css/around/style.css" />
+
+<header id="header" class="aui-bar aui-bar-nav aui-bar-light">
+    <a href="javascript:history.back(1);" class="aui-pull-left aui-btn">
+        <span  class="aui-iconfont aui-icon-left"></span>
+    </a>
+    <div class="aui-title ">追梦良品</div>
+</header>
+
+<div id="content"  class="aui-content aui-margin-b-15" >
+    <div >
+        <ul id="wp-select-class">
+            <if condition="-1 eq $classId">
+                <li class="wp-btn type-one type-one-selected">
+                    <a href="{:U('Around/index')}">所有</a>
+                </li>
+                <else />
+                <li class="wp-btn type-one">
+                    <a href="{:U('Around/index')}">所有</a>
+                </li>
+            </if>
+            <volist name="classList" id="vo"  mod="2" key="k">
+                <if condition="$vo.id eq $classId">
+                    <li class="wp-btn type-one type-one-selected">
+                        <a href="{:U('Around/index',array('class'=>$vo['id']))}">{$vo['name']}</a>
+                    </li>
+                    <else />
+                    <li class="wp-btn type-one">
+                        <a href="{:U('Around/index',array('class'=>$vo['id']))}">{$vo['name']}</a>
+                    </li>
+                </if>
+            </volist>
+            <li class="wp-clear-both"></li>
+        </ul>
+    </div>
+
+    <div >
+        <volist name="aroundList" id="vo" >
+            <div  onclick="wpBase.href('Around/detail',{id:'{$vo.id}'})" class="wp-btn wp-waterfall-box">
+                <div  class="wp-waterfall-box-bg">
+                    <img  src="{$vo.thumbnail}" />
+                    <div class="wp-waterfall-box-content">
+                        <div class="wp-waterfall-box-l">
+                            <p  class="wp-waterfall-box-about" >{$vo.brief}</p>
+                            <p  class="wp-waterfall-box-name" >{$vo.name}</p>
+                            <p  class="wp-waterfall-box-price" >￥{$vo.price}</p>
+                        </div>
+                        <div class="wp-waterfall-box-r">
+                            <div  class="aui-btn aui-btn-danger wp-waterfall-box-order-btn" >购买</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </volist>
+
+        <div style="clear: both;"></div>
+    </div>
+</div>
+
+<script type="text/javascript" src="__PUBLIC__/WeChat/js/jquery.min.js" ></script>
+
+<script type="text/javascript">
+    auiSliderHeight="200px";
+</script>
+<include file="Public:footer"/>

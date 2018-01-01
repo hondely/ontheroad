@@ -1,0 +1,59 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../../../WeChat/images/loginBg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#login-container{
+  background-color: rgba(255,255,255,0.5);
+  box-shadow:  0px 10px 5px #888888;
+  width: 480px;
+  height:360px;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+#login-user-icon{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+#login-user-icon img{
+  width: 72px;
+  height: 72px;
+  border-radius: 36px;
+  border: 2px solid white;
+  box-shadow:  0px 5px 5px #888888;
+}
+
+#login-form{
+  padding: 10px;
+  /*position: absolute;*/
+  /*top: 50%;*/
+  /*left: 50%;*/
+  /*width: 100%;*/
+  /*transform: translateX(-50%) translateY(-50%);*/
+}
+
+#name,#password,#verify{
+  margin-bottom: 10px;
+}
+
+.verify-pic{
+    border-radius: 6px;
+    margin-bottom: 6px;
+}
+
+#loginBtn{
+    width: 100px;
+}

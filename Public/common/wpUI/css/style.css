@@ -1,0 +1,37 @@
+﻿@charset "utf-8";
+/*距离头部 36px*/
+.my-container{
+    margin-top: 36px;
+}
+
+/*居中的 360px 的DIV*/
+.my-center-div{
+    max-width: 360px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+/*距离上面 20px*/
+.my-row-margin-top2{
+    margin-top: 20px;
+}
+
+/*距离上面 20px*/
+.my-row-margin-bottom2{
+    margin-bottom: 20px;
+}
+
+.panel-heading{
+    cursor: pointer !important;
+}
+
+.my-table{
+    border-bottom: 0px !important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+}
+
+.no-border{
+    border: 0px !important;
+}
+

@@ -1,0 +1,18 @@
+[ 2018-01-01T15:12:09+08:00 ] 192.168.9.161 /ontheroad/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008907s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013865s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\PHPTutorial\WWW\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019211s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019253s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007634s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007665s ]
+

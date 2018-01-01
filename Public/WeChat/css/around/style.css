@@ -1,0 +1,94 @@
+a{
+    color: #000000;
+}
+ul{
+    list-style: none;
+    text-align: center;
+    margin:10px;
+    /*margin: 0 auto;*/
+}
+.type-one{
+    float: left;
+    margin-left: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.type-one-selected a{
+    border: 1px solid #7fffd4;
+}
+
+.type-one a{
+    background-color:white;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.wp-waterfall-box{
+    float: left;
+    width: 50%;
+    height: 220px;
+}
+
+.wp-waterfall-box-bg{
+    margin: 5px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.wp-waterfall-box-bg img{
+    width: 100%;
+    height: 100px;
+    padding: 5px;
+}
+
+.wp-waterfall-box-content{
+    display: table;
+    width: 100%;
+}
+
+.wp-waterfall-box-l{
+    display: table-cell;
+    max-width:70%;
+}
+
+.wp-waterfall-box-r{
+    display: table-cell;
+    max-width: 30%;
+    vertical-align: middle;
+}
+
+.wp-waterfall-box-about{
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.wp-waterfall-box-name{
+    margin-left: 5px;
+    color: #000000;
+    font-size: 16px;
+}
+
+.wp-waterfall-box-price{
+    margin-left: 5px;
+    color: red;
+}
+
+.wp-waterfall-box-order-btn{
+    margin-right: 5px;
+}
+
+.order-btn{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    text-align: center;
+    background: red;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+img{
+    max-width: 100% !important;
+}

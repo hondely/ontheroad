@@ -1,0 +1,1539 @@
+[ 2017-07-10T19:52:30+08:00 ] 180.163.1.46 /ontheroad/index.php/WeChat/Around/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001184s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_around_class` [ RunTime:0.0197s ]
+SQL: SELECT * FROM `d_around_class` WHERE ( state=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `d_around` ORDER BY id desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000450s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\e81ec37e07f617b93f4a1d1b0153ce0d.php 第 79 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\e81ec37e07f617b93f4a1d1b0153ce0d.php 第 84 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\e81ec37e07f617b93f4a1d1b0153ce0d.php 第 89 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\e81ec37e07f617b93f4a1d1b0153ce0d.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000947s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000915s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001177s ]
+
+[ 2017-07-10T21:18:23+08:00 ] 223.85.221.220 /ontheroad/index.php/WeChat/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined variable: option C:\wamp\www\ontheroad\Application\WeChat\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `d_banner` [ RunTime:0.0292s ]
+SQL: SELECT * FROM `d_banner`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000389s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 89 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 94 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 99 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016301s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000897s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001129s ]
+
+[ 2017-07-10T21:18:29+08:00 ] 117.176.255.216 /ontheroad/index.php/WeChat/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_banner` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `d_banner`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_room_type` [ RunTime:0.0445s ]
+SQL: SELECT * FROM `d_room_type` WHERE ( state=1 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000422s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 131 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 136 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 141 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019488s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019729s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000721s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000956s ]
+
+[ 2017-07-10T21:18:32+08:00 ] 117.176.255.216 /ontheroad/index.php/WeChat/Around/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001062s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_around_class` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `d_around_class` WHERE ( state=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_around` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `d_around` ORDER BY id desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000400s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\e81ec37e07f617b93f4a1d1b0153ce0d.php 第 79 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\e81ec37e07f617b93f4a1d1b0153ce0d.php 第 84 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\e81ec37e07f617b93f4a1d1b0153ce0d.php 第 89 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\e81ec37e07f617b93f4a1d1b0153ce0d.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022964s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023212s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000865s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001100s ]
+
+[ 2017-07-10T21:18:33+08:00 ] 59.78.209.100 /ontheroad/index.php/WeChat/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined variable: option C:\wamp\www\ontheroad\Application\WeChat\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `d_banner` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `d_banner`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000478s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 89 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 94 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 99 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015324s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015571s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000865s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001099s ]
+
+[ 2017-07-10T21:18:43+08:00 ] 223.85.221.220 /ontheroad/index.php/WeChat/MyCenter/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001109s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000426s ]
+NOTIC: [8] Undefined variable: userInfo C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 21 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 166 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 171 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 176 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 181 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015425s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015677s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001097s ]
+
+[ 2017-07-10T21:18:47+08:00 ] 223.85.221.220 /ontheroad/index.php/WeChat/MyCenter/indexForSingle/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_document` [ RunTime:0.0317s ]
+SQL: SELECT * FROM `d_document` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000461s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 47 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 52 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 57 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013559s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000917s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001157s ]
+
+[ 2017-07-10T21:18:48+08:00 ] 223.85.221.220 /ontheroad/index.php/WeChat/MyCenter/indexForSingle/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001084s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_document` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `d_document` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000396s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 47 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 52 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 57 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013439s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000869s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001103s ]
+
+[ 2017-07-10T21:18:50+08:00 ] 223.85.221.220 /ontheroad/index.php/WeChat/MyCenter/indexForSingle/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001077s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_document` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `d_document` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000390s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 47 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 52 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 57 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012580s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001116s ]
+
+[ 2017-07-10T21:18:52+08:00 ] 223.85.221.220 /ontheroad/index.php/WeChat/MyCenter/indexForSingle/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_document` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `d_document` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000385s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 47 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 52 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 57 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012717s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000902s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000899s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001133s ]
+
+[ 2017-07-10T21:18:53+08:00 ] 101.226.66.187 /ontheroad/index.php/WeChat/MyCenter/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001110s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000452s ]
+NOTIC: [8] Undefined variable: userInfo C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 21 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 166 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 171 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 176 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\62324a2061d1ab16c8ceefe9137500cc.php 第 181 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016055s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000855s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000869s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001102s ]
+
+[ 2017-07-10T21:18:53+08:00 ] 223.85.221.220 /ontheroad/index.php/WeChat/MyCenter/indexForSingle/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001124s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_document` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `d_document` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000389s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 47 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 52 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 57 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012989s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000907s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001146s ]
+
+[ 2017-07-10T21:18:54+08:00 ] 223.85.221.220 /ontheroad/index.php/WeChat/MyCenter/indexForSingle/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_document` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `d_document` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000431s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 47 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 52 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 57 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012842s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013098s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001272s ]
+
+[ 2017-07-10T21:18:56+08:00 ] 223.85.221.220 /ontheroad/index.php/WeChat/MyCenter/indexForSingle/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_document` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `d_document` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000424s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 47 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 52 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 57 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012793s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000933s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001165s ]
+
+[ 2017-07-10T21:18:57+08:00 ] 101.226.33.218 /ontheroad/index.php/WeChat/MyCenter/indexForSingle/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_document` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `d_document` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000375s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 47 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 52 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 57 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012185s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012424s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000983s ]
+
+[ 2017-07-10T21:18:57+08:00 ] 223.85.221.220 /ontheroad/index.php/WeChat/MyCenter/indexForSingle/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001111s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_document` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `d_document` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000390s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 47 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 52 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 57 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012854s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000899s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001151s ]
+
+[ 2017-07-10T21:18:58+08:00 ] 223.85.221.220 /ontheroad/index.php/WeChat/MyCenter/indexForMulti/type/4/typeName/%E6%88%B7%E5%A4%96%E8%B7%AF%E7%BA%BF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001185s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_document_for_multi` [ RunTime:0.0263s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `d_document_for_multi` WHERE `type` = 4 AND `state` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `d_document_for_multi` WHERE `type` = 4 AND `state` = 1 ORDER BY time desc LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `d_document_for_multi` [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000407s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\8b0f194200b280b8ba2656fbb6904a7e.php 第 59 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\8b0f194200b280b8ba2656fbb6904a7e.php 第 64 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\8b0f194200b280b8ba2656fbb6904a7e.php 第 69 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\8b0f194200b280b8ba2656fbb6904a7e.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039181s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039445s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000896s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001196s ]
+
+[ 2017-07-10T21:19:00+08:00 ] 223.85.221.220 /ontheroad/index.php/WeChat/MyCenter/indexForMulti/type/4/typeName/%E6%97%85%E8%A1%8C%E7%A4%BE%E6%8A%A5%E5%9B%A2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001218s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_document_for_multi` [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `d_document_for_multi` WHERE `type` = 4 AND `state` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `d_document_for_multi` WHERE `type` = 4 AND `state` = 1 ORDER BY time desc LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `d_document_for_multi` [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000407s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\8b0f194200b280b8ba2656fbb6904a7e.php 第 59 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\8b0f194200b280b8ba2656fbb6904a7e.php 第 64 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\8b0f194200b280b8ba2656fbb6904a7e.php 第 69 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\8b0f194200b280b8ba2656fbb6904a7e.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017241s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000890s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001128s ]
+
+[ 2017-07-10T21:19:01+08:00 ] 112.65.193.15 /ontheroad/index.php/WeChat/MyCenter/indexForSingle/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001171s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_document` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `d_document` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000375s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 47 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 52 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 57 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012937s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000885s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001118s ]
+
+[ 2017-07-10T21:19:01+08:00 ] 223.85.221.220 /ontheroad/index.php/WeChat/MyCenter/detailForMulti?id=8&typeName=%E6%97%85%E8%A1%8C%E7%A4%BE%E6%8A%A5%E5%9B%A2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_document_for_multi` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `d_document_for_multi` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `d_document_for_multi` SET `title`='q23',`thumbnail`='/ontheroad/Public/WeChat/images/order/homeHeader.png',`content`='123',`type`='4',`time`='2017-04-14 23:25:55',`hot_degress`='6',`state`='1' WHERE `id` = 8 [ RunTime:0.0059s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000388s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\49151893d6377102907c21f922b290e8.php 第 63 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\49151893d6377102907c21f922b290e8.php 第 68 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\49151893d6377102907c21f922b290e8.php 第 73 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\49151893d6377102907c21f922b290e8.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013152s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013394s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000910s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001140s ]
+
+[ 2017-07-10T21:19:02+08:00 ] 61.151.218.119 /ontheroad/index.php/WeChat/MyCenter/indexForSingle/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001235s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_document` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `d_document` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000434s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 47 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 52 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 57 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014047s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014298s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000877s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001173s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001411s ]
+
+[ 2017-07-10T21:19:03+08:00 ] 101.226.125.16 /ontheroad/index.php/WeChat/MyCenter/indexForSingle/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001109s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_document` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `d_document` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000391s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 47 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 52 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 57 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012936s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000837s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001105s ]
+
+[ 2017-07-10T21:19:04+08:00 ] 223.85.221.220 /ontheroad/index.php/WeChat/MyCenter/indexForSingle/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001091s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_document` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `d_document` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000386s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 47 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 52 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 57 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013211s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013524s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000887s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001121s ]
+
+[ 2017-07-10T21:19:06+08:00 ] 223.85.221.220 /ontheroad/index.php/WeChat/MyCenter/indexForSingle/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_document` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `d_document` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000387s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 47 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 52 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 57 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014900s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015218s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000891s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001128s ]
+
+[ 2017-07-10T21:19:06+08:00 ] 180.163.2.116 /ontheroad/index.php/WeChat/MyCenter/indexForSingle/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001085s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_document` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `d_document` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000371s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 47 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 52 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 57 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014616s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014919s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000837s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000869s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001102s ]
+
+[ 2017-07-10T21:19:07+08:00 ] 223.85.221.220 /ontheroad/index.php/WeChat/MyCenter/indexForMulti/type/1/typeName/%E7%B2%BE%E5%BD%A9%E5%9B%BE%E9%9B%86
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001125s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_document_for_multi` [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `d_document_for_multi` WHERE `type` = 1 AND `state` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `d_document_for_multi` WHERE `type` = 1 AND `state` = 1 ORDER BY time desc LIMIT 0,10   [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `d_document_for_multi` [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000405s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\8b0f194200b280b8ba2656fbb6904a7e.php 第 59 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\8b0f194200b280b8ba2656fbb6904a7e.php 第 64 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\8b0f194200b280b8ba2656fbb6904a7e.php 第 69 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\8b0f194200b280b8ba2656fbb6904a7e.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016729s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000887s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001122s ]
+
+[ 2017-07-10T21:19:09+08:00 ] 101.226.125.104 /ontheroad/index.php/WeChat/MyCenter/indexForMulti/type/4/typeName/%E6%88%B7%E5%A4%96%E8%B7%AF%E7%BA%BF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_document_for_multi` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `d_document_for_multi` WHERE `type` = 4 AND `state` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `d_document_for_multi` WHERE `type` = 4 AND `state` = 1 ORDER BY time desc LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_document_for_multi` [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000386s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\8b0f194200b280b8ba2656fbb6904a7e.php 第 59 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\8b0f194200b280b8ba2656fbb6904a7e.php 第 64 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\8b0f194200b280b8ba2656fbb6904a7e.php 第 69 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\8b0f194200b280b8ba2656fbb6904a7e.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015667s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015903s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000945s ]
+
+[ 2017-07-10T21:19:10+08:00 ] 101.226.33.206 /ontheroad/index.php/WeChat/MyCenter/indexForMulti/type/4/typeName/%E6%97%85%E8%A1%8C%E7%A4%BE%E6%8A%A5%E5%9B%A2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001084s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_document_for_multi` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `d_document_for_multi` WHERE `type` = 4 AND `state` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `d_document_for_multi` WHERE `type` = 4 AND `state` = 1 ORDER BY time desc LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_document_for_multi` [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000383s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\8b0f194200b280b8ba2656fbb6904a7e.php 第 59 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\8b0f194200b280b8ba2656fbb6904a7e.php 第 64 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\8b0f194200b280b8ba2656fbb6904a7e.php 第 69 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\8b0f194200b280b8ba2656fbb6904a7e.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016303s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016542s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001111s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001380s ]
+
+[ 2017-07-10T21:19:11+08:00 ] 101.226.33.223 /ontheroad/index.php/WeChat/MyCenter/detailForMulti?id=8&typeName=%E6%97%85%E8%A1%8C%E7%A4%BE%E6%8A%A5%E5%9B%A2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000864s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001175s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_document_for_multi` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `d_document_for_multi` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `d_document_for_multi` SET `title`='q23',`thumbnail`='/ontheroad/Public/WeChat/images/order/homeHeader.png',`content`='123',`type`='4',`time`='2017-04-14 23:25:55',`hot_degress`='7',`state`='1' WHERE `id` = 8 [ RunTime:0.0066s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000373s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\49151893d6377102907c21f922b290e8.php 第 63 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\49151893d6377102907c21f922b290e8.php 第 68 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\49151893d6377102907c21f922b290e8.php 第 73 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\49151893d6377102907c21f922b290e8.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013306s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013545s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000888s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001118s ]
+
+[ 2017-07-10T21:19:11+08:00 ] 223.85.221.220 /ontheroad/index.php/WeChat/MyCenter/detailForMulti?id=3&typeName=%E7%B2%BE%E5%BD%A9%E5%9B%BE%E9%9B%86
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_document_for_multi` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `d_document_for_multi` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `d_document_for_multi` SET `title`='你为什么愿意为了一杯喜茶排队四五个钟头？',`thumbnail`='/ontheroad/Uploads/gallery//58f329cec87de.jpeg',`content`='&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	&lt;img id=&quot;content-first-img&quot; src=&quot;http://uppic.fd.zol-img.com.cn/t_s640x2000/g5/M00/0C/01/ChMkJ1jy0WmIGIVnAARhkM0wrBoAAbsfAGNrU0ABGGo50.jpeg&quot; class=&quot;subscibe-img&quot; /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	在周六下午人流如织的广州花城汇，喜茶店面门口早已排成了长龙。在排了将近一个小时之后，我也终于拿到了自己的芝士芒芒。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	相比上海来福士广场店动辄三四个小时的排队时间，高峰期一个小时的我已经算是幸运了。起家于广东江门，喜茶如今九成的店铺都位于广东地区。不过就算店面多了，在广深地区的主要商圈，想要喝到“网红”喜茶还是得老老实实地做好排队的准备。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	&lt;img src=&quot;http://uppic.fd.zol-img.com.cn/t_s640x2000/g5/M00/0C/01/ChMkJljy0WmIUX5LAALTwEMmELIAAbsfAGT9LYAAtPY894.jpg&quot; class=&quot;subscibe-img&quot; /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;text-align:center;font-family:&amp;quot;&quot;&gt;
+	（喜茶广州花城汇店）
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	一杯茶饮而已，却让这么多人为之疯狂，愿意花上数小时去排队，也是挺魔幻的。不过仔细一想，为了一样“网红美食”去排队，在现在这个时代还真不是什么新鲜事了。
+&lt;/p&gt;
+&lt;h3 style=&quot;color:#333333;font-family:&amp;quot;&quot;&gt;
+	排队，我是自愿的
+&lt;/h3&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	有人说，现在排队买喜茶的，跟当时排队买杏花楼青团、黄太吉煎饼果子、鲍师傅肉松面包、WIYE&amp;nbsp;冰淇淋的，是同一拨人。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	&lt;img src=&quot;http://uppic.fd.zol-img.com.cn/t_s640x2000/g5/M00/0C/01/ChMkJ1jy0WqIR8oNAAI0cwwVwNUAAbsfAGWyI4AAjSL52.jpeg&quot; class=&quot;subscibe-img&quot; /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;text-align:center;font-family:&amp;quot;&quot;&gt;
+	（图片来自：网易新闻）
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	想想有点道理，来排队的大多是十几二十几岁的年轻人，他们刷着手机、玩着自拍，排队等待的过程看上去似乎也没那么枯燥难熬了。当然，拿到成品后，第一件事就是拍照，也少不了要发朋友圈晒上一晒。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	网红美食就是这样一种神奇的东西。一个看起来非常日常的食物，一旦被挂上了“老字号”、“限量”、“名人推荐”等标签，就会身价飙升、受人追捧。而排队，更为网红美食增加了几分神秘气息，越来越成为后者的一种标配。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	想象一下，如果你走在路上，看到前面好多人在排队买一种美食，会不会停下来看两眼？如果刚好又没什么事，会不会想要排个队买来尝尝看？排队的时候用手机搜索了一下，发现竟然是特别有名的网红小吃，会不会更加坚定了你排队的决心？
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	大多数人排队都是基于这种心理，好奇和从众。尤其在吃饭这件事上，从众效应表现得更加明显。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	在没有大众点评的时代，判断一家餐厅好不好吃都是看店里的人多不多、门口排的队长不长。现在，除了看曾经来过的食客们给打了几颗星、写了什么样的点评之外，消费者们的选择还在被网红、KOL&amp;nbsp;以及各种网络舆论引导着。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	以喜茶为例，虽然已经在广东地区深耕数年，但这次上海排队事件可算是引爆了品牌在社交网络上的影响力。美妆博主@阿花花酱就曾在微博上说，近期的最大愿望就是喝到喜茶。就连王励勤都加入了喜茶大军，说球迷送的这杯在上海要排五个小时的茶，“没来得及拿银针测，回房间一口气喝完了。”
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	&lt;img src=&quot;http://uppic.fd.zol-img.com.cn/t_s640x2000/g5/M00/0C/01/ChMkJljy0WuICMP8AAEU6Q6EsTgAAbsfAGZBYQAARUB560.jpg&quot; class=&quot;subscibe-img&quot; /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	如今能在朋友圈晒出一杯喜茶，已经变成了一种“赤裸裸的炫耀”。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	当越来越多的人在网上晒出“芝士莓莓”、“芝士芒芒”、“金凤茶王”等王牌产品之后，更多还没买到的人坐不住了。他们一点儿也不担心要排上几个小时，无论是在喜茶的官方账号下，还是在各大社交网络平台上，都有他们呐喊的声音：“喜茶什么时候可以开到我们这里来？”
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	换句话说，大排长龙并没有没有吓退消费者，反而让更多的人对这杯小小的奶盖茶饮产生了好奇。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	&lt;img src=&quot;http://uppic.fd.zol-img.com.cn/t_s640x2000/g5/M00/0C/01/ChMkJ1jy0WyIdXQ0AAJpAQUy4c4AAbsfAGcHlAAAmkZ220.jpg&quot; class=&quot;subscibe-img&quot; /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;text-align:center;font-family:&amp;quot;&quot;&gt;
+	（图片来自：喜茶）
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	在计划经济时代，排队买东西背后是资源的稀缺，数量有限，先到先得。但是到了市场经济时代，物资丰富了，人们有了更多的选择，本不应该再被排队所困扰，却有更多的人放着不用排队的东西不买，跑去等上好几个小时。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	从前的被迫排队，到现在变成了主动选择。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	从需求的角度来看，这也算是当下时髦的“消费升级”。原来可能只追求吃饱，现在人们还要吃好。再有点高追求的，还要吃得巧、吃得妙、吃出品味和身份。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	在这个时代，吃饭早就不再是吃东西本身，吃的都是食物之上的附加价值。而对喜茶这样的网红小吃而言，排队也不再只是排队，变成了一种类似于朝圣的消费仪式。
+&lt;/p&gt;
+&lt;h3 style=&quot;color:#333333;font-family:&amp;quot;&quot;&gt;
+	排队买个奶茶而已，还扯上了焦虑症
+&lt;/h3&gt;
+&lt;blockquote style=&quot;color:#999999;font-family:&amp;quot;font-size:16px;&quot;&gt;
+	&lt;p style=&quot;text-indent:2em;font-style:italic !important;&quot;&gt;
+		等待能让产品增值，而增加的价值会让人们在排队时更有耐心。
+	&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	美国芝加哥大学行为科学教授&amp;nbsp;Ayelet&amp;nbsp;Fishbach&amp;nbsp;在研究排队现象时有了这样的发现。换句话说，排队能让产品变得更值得排队。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	有不少人是的确是因为真心喜欢，觉得喜茶“用料实在、美味可口”而去排的队。在长时间的等待之后，他们拿到手的美食更显珍贵，对味道的期待值也会空前提升。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	&lt;img src=&quot;http://uppic.fd.zol-img.com.cn/t_s640x2000/g5/M00/0C/01/ChMkJ1jy0WyIWH6ZAAGJkkZySlcAAbsfAGeh2kAAYmq489.jpg&quot; class=&quot;subscibe-img&quot; /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;text-align:center;font-family:&amp;quot;&quot;&gt;
+	（图片来自：喜茶）
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	但对大部分人来说，当花费大量的时间在排队上时，他们付出的成本已经远超产品本身的价值。这一部分多出来的成本，需要产品提供更多的附加价值，才能让消费者感到满足。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	对于网红美食而言，这些附加价值体现在限量销售、名人效应等方面；而另一种更具时代特征的附加价值，是它们能够提供的社交体验。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	有的人排了好几小时的队才买到一杯喜茶，但他/她的照片却获得了朋友圈的盛赞；有的人本来在微博上籍籍无名，因为晒了网红美食的照片，就引来好多人的询问互动，还因此涨了一些粉。对他们来说，这些等待的时间是值得的。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	因此就像前文所说的，追网红美食的可能真的是同一批人。他们在当代众多的“焦虑症”中，患上了一种叫做“存在焦虑症”的病。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	2013&amp;nbsp;年，牛津词典曾收录“FOMO”，即&amp;nbsp;Fear&amp;nbsp;of&amp;nbsp;Missing&amp;nbsp;Out（害怕错过）一词。它反映了在社交网络时代，人们愈加严重的“存在焦虑症”。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	&lt;img src=&quot;http://uppic.fd.zol-img.com.cn/t_s640x2000/g5/M00/0C/01/ChMkJljy0WuIVQuaAAHa5CwsXfkAAbsfAGgERMAAdr8925.jpg&quot; class=&quot;subscibe-img&quot; /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;text-align:center;font-family:&amp;quot;&quot;&gt;
+	（图片来自：&lt;span class=&quot;irc_ho&quot;&gt;&lt;a class=&quot;_ZR irc_hol i3724&quot; href=&quot;https://www.theodysseyonline.com/product-the-fomo-generation&quot; target=&quot;_blank&quot;&gt;The&amp;nbsp;Odyssey&amp;nbsp;Online&lt;/a&gt;）&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	当人们在用社交网络为自己打造理想中的形象时，不可避免地陷入到社交网络的漩涡之中。“有没有错过什么网络热点？我发的段子别人觉得有意思吗？为什么没人给我点赞？”
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	渴望被认可、被赞许、被接纳，讨厌被遗忘、被忽视、被排斥。在这个时代，人们需要不停地为自己找寻存在感。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	有人把自己捧成了段子手，有人用自拍美照装点门面，但相比“突出”，很多人更害怕“落伍”和“与众不同”。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	身边的小伙伴都在玩&lt;a href=&quot;http://sj.zol.com.cn/wangzherongyao/&quot; class=&quot;hui14_line&quot;&gt;王者荣耀&lt;/a&gt;，为了跟他们有共同话题，我也玩吧；大家都在看《人民的名义》，我也得看看到底讲了什么；大家都喝了喜茶晒了照片，我也得去买一杯尝尝。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	&lt;img src=&quot;http://uppic.fd.zol-img.com.cn/t_s640x2000/g5/M00/0C/01/ChMkJljy0WuIRe24AAK38MjaBWsAAbsfAGh7A8AArgI796.jpg&quot; class=&quot;subscibe-img&quot; /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;text-align:center;font-family:&amp;quot;&quot;&gt;
+	（图片来自：&lt;span class=&quot;irc_ho&quot;&gt;&lt;a class=&quot;_ZR irc_hol i3724&quot; href=&quot;https://buzzorange.com/techorange/2012/11/05/rebuzz-change-people-s-behavior-only-needs-to-change-a-word/&quot; target=&quot;_blank&quot;&gt;BuzzOrange&lt;/a&gt;）&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	说到底，这种“你有我也得有”的跟风心态是“网红们”能够火起来的源动力。社交网络上关于网红美食的文章越多，人们的“存在焦虑症”就越严重，也越想去“拔草”。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	再加上买一杯奶茶、一份点心的价格也不算贵，用可以接受的花费来换取对自己“存在焦虑症”的纾解，看上去还是划算的。至于排队，排了队才更能体现出自己的价值啊。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	喜茶好不好喝？好喝。那值不值得排&amp;nbsp;4、5&amp;nbsp;个小时去买？讲真，这就真的因人而异了。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	从实用主义者的角度来看，为了一杯奶茶去排队几个小时，可能纯粹是浪费时间；但对于有闲有钱又焦虑着的人们来说，时间并不是敏感因素，而一杯奶茶能给他们带来的，也绝非只是一杯奶茶那么简单。
+&lt;/p&gt;
+&lt;h3 style=&quot;color:#333333;font-family:&amp;quot;&quot;&gt;
+	你排过最长的队，可能是商家的套路
+&lt;/h3&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	当排队已经变成网红美食的标配，除了消费者的自发选择之外，排队也是商家最常用的一种营销策略。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	比如说星巴克就采用了横向的排队方式。在这种动线设计下，消费者的视线不会被前面的顾客遮挡，可以无障碍地获取菜单信息。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	&lt;img src=&quot;http://uppic.fd.zol-img.com.cn/t_s640x2000/g5/M00/0C/01/ChMkJljy0WyISVu5AAIF-xlbcKkAAbsfAGkpBcAAgYT122.jpg&quot; class=&quot;subscibe-img&quot; /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;text-align:center;font-family:&amp;quot;&quot;&gt;
+	（图片来自：&lt;span class=&quot;irc_ho&quot;&gt;&lt;a class=&quot;_ZR irc_hol i3724&quot; href=&quot;https://www.thesun.co.uk/living/2844881/skip-starbucks-queue/&quot; target=&quot;_blank&quot;&gt;The&amp;nbsp;Sun&lt;/a&gt;）&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	同时，消费者沿着柜台横向排队，接单、制作和出品这三个主要流程都处在他们的观察之下，可以营造出一种品质有保障的感觉；充分利用横向的动线来陈列商品，也能提升消费者的购物兴趣。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	这样的设计与星巴克的价值导向也保持一致。倡导“第三空间”的星巴克，一直致力于为消费者打造一个有别于办公场所、家庭之外的休闲空间。横向排队能够让消费者看到彼此的表情，为他们提供了相互交流的机会，以缓解等待过程中的无聊。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	而麦当劳却采用了相反的纵向排队队列，它能够提醒消费者尽快做出决定、提高点单效率；也能营造出一种热闹、快节奏的氛围，符合快餐店的定位。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	&lt;img src=&quot;http://uppic.fd.zol-img.com.cn/t_s640x2000/g5/M00/0C/01/ChMkJ1jy0W2IeUtMAAIDLnLCnz0AAbsfAGmqioAAgNG976.jpg&quot; class=&quot;subscibe-img&quot; /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;text-align:center;font-family:&amp;quot;&quot;&gt;
+	（图片来自：&lt;span class=&quot;irc_ho&quot;&gt;&lt;a class=&quot;_ZR irc_hol i3724&quot; href=&quot;https://www.thesun.co.uk/money/3279350/mcdonalds-has-an-app-and-it-means-youll-never-need-to-queue-again/&quot; target=&quot;_blank&quot;&gt;The&amp;nbsp;Sun&lt;/a&gt;）&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	除了排队动线设计，排队经济中被应用最广泛的就是“饥饿营销”了。通过控制消费者入场数量或者产品的供给，可以塑造出一种“产品非常抢手”的形象。再利用点人们的好奇心和从众心理，可能会产生非常好的营销效果。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	海底捞这个曾经的“网红”代表，就利用排队经济成功地“套路”了消费者。在消费者因为长时间的排队等待而放弃一家餐厅时，海底捞用免费的饮料、零食，甚至还有美甲服务留住了顾客，还因此吸引了一大批为了尝鲜而来的新客户。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	不过也有些商家在用排队营销这个大招时，太过简单粗暴，往往会招致消费者的反感。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	刚开始被爆排队时，喜茶也曾被质疑过是否是炒作和饥饿营销，网络上还流传出喜茶雇人排队的传言。一时间，大家众说纷纭。有忠实粉丝为喜茶辩护的，也有“知情人士”爆料内幕的，不过讨论归讨论，喜茶门前的队列还是那么长。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	&lt;img src=&quot;http://uppic.fd.zol-img.com.cn/t_s640x2000/g5/M00/0C/01/ChMkJljy0W-IJMFVAADNhwo9xFQAAbsfAGsoxQAAM2f769.jpg&quot; class=&quot;subscibe-img&quot; /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	面对质疑，喜茶自己是感觉“委屈”的。先是表示绝对没有雇佣黄牛排队，还曾经采取标记顺序排号、限购等措施来遏制黄牛；在近日发布的公告中，喜茶还透露，此前大排长龙的上海来福士店和美罗城店的单店日出杯量已经达到了&amp;nbsp;3000&amp;nbsp;杯以上，不过仍然难以满足每日的需求量。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	&lt;img src=&quot;http://uppic.fd.zol-img.com.cn/t_s640x2000/g5/M00/0C/01/ChMkJljy0W-ICIxkAAGMtitZ9sIAAbsfAGtcLMAAYzO649.jpg&quot; class=&quot;subscibe-img&quot; /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;text-align:center;font-family:&amp;quot;&quot;&gt;
+	（图片来自：喜茶）
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	广设新店是喜茶给出的解决方案。他们表示，除了现有的店面，接下来还将在全国更多的城市开设新店，“让大家都能愉快优雅地喝上一杯喜茶。”
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	能不能“愉快优雅地喝上”尚且不知，不过对于已经在商家的套路中摸爬滚打多年的消费者来说，“网红”来得太快就像龙卷风，但往往也会像龙卷风一样快速过气。当你捧起一杯芝士莓莓时，还记得大明湖畔的熊猫奶盖吗？
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	所以，无论是对消费者还是对商家来说，都别轻易被排队的热潮蒙蔽双眼，真诚地做出好的产品就不愁没人来买，耐心等待也早晚都能享受到。谁知道呢？也许下一家喜茶就开在你家门口。
+&lt;/p&gt;',`type`='1',`time`='2017-04-13 01:27:50',`hot_degress`='8',`state`='1' WHERE `id` = 3 [ RunTime:0.0072s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000376s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\49151893d6377102907c21f922b290e8.php 第 63 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\49151893d6377102907c21f922b290e8.php 第 68 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\49151893d6377102907c21f922b290e8.php 第 73 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\49151893d6377102907c21f922b290e8.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012753s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012993s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000837s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000867s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001103s ]
+
+[ 2017-07-10T21:19:21+08:00 ] 101.226.125.100 /ontheroad/index.php/WeChat/MyCenter/detailForMulti?id=3&typeName=%E7%B2%BE%E5%BD%A9%E5%9B%BE%E9%9B%86
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_document_for_multi` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `d_document_for_multi` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `d_document_for_multi` SET `title`='你为什么愿意为了一杯喜茶排队四五个钟头？',`thumbnail`='/ontheroad/Uploads/gallery//58f329cec87de.jpeg',`content`='&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	&lt;img id=&quot;content-first-img&quot; src=&quot;http://uppic.fd.zol-img.com.cn/t_s640x2000/g5/M00/0C/01/ChMkJ1jy0WmIGIVnAARhkM0wrBoAAbsfAGNrU0ABGGo50.jpeg&quot; class=&quot;subscibe-img&quot; /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	在周六下午人流如织的广州花城汇，喜茶店面门口早已排成了长龙。在排了将近一个小时之后，我也终于拿到了自己的芝士芒芒。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	相比上海来福士广场店动辄三四个小时的排队时间，高峰期一个小时的我已经算是幸运了。起家于广东江门，喜茶如今九成的店铺都位于广东地区。不过就算店面多了，在广深地区的主要商圈，想要喝到“网红”喜茶还是得老老实实地做好排队的准备。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	&lt;img src=&quot;http://uppic.fd.zol-img.com.cn/t_s640x2000/g5/M00/0C/01/ChMkJljy0WmIUX5LAALTwEMmELIAAbsfAGT9LYAAtPY894.jpg&quot; class=&quot;subscibe-img&quot; /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;text-align:center;font-family:&amp;quot;&quot;&gt;
+	（喜茶广州花城汇店）
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	一杯茶饮而已，却让这么多人为之疯狂，愿意花上数小时去排队，也是挺魔幻的。不过仔细一想，为了一样“网红美食”去排队，在现在这个时代还真不是什么新鲜事了。
+&lt;/p&gt;
+&lt;h3 style=&quot;color:#333333;font-family:&amp;quot;&quot;&gt;
+	排队，我是自愿的
+&lt;/h3&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	有人说，现在排队买喜茶的，跟当时排队买杏花楼青团、黄太吉煎饼果子、鲍师傅肉松面包、WIYE&amp;nbsp;冰淇淋的，是同一拨人。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	&lt;img src=&quot;http://uppic.fd.zol-img.com.cn/t_s640x2000/g5/M00/0C/01/ChMkJ1jy0WqIR8oNAAI0cwwVwNUAAbsfAGWyI4AAjSL52.jpeg&quot; class=&quot;subscibe-img&quot; /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;text-align:center;font-family:&amp;quot;&quot;&gt;
+	（图片来自：网易新闻）
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	想想有点道理，来排队的大多是十几二十几岁的年轻人，他们刷着手机、玩着自拍，排队等待的过程看上去似乎也没那么枯燥难熬了。当然，拿到成品后，第一件事就是拍照，也少不了要发朋友圈晒上一晒。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	网红美食就是这样一种神奇的东西。一个看起来非常日常的食物，一旦被挂上了“老字号”、“限量”、“名人推荐”等标签，就会身价飙升、受人追捧。而排队，更为网红美食增加了几分神秘气息，越来越成为后者的一种标配。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	想象一下，如果你走在路上，看到前面好多人在排队买一种美食，会不会停下来看两眼？如果刚好又没什么事，会不会想要排个队买来尝尝看？排队的时候用手机搜索了一下，发现竟然是特别有名的网红小吃，会不会更加坚定了你排队的决心？
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	大多数人排队都是基于这种心理，好奇和从众。尤其在吃饭这件事上，从众效应表现得更加明显。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	在没有大众点评的时代，判断一家餐厅好不好吃都是看店里的人多不多、门口排的队长不长。现在，除了看曾经来过的食客们给打了几颗星、写了什么样的点评之外，消费者们的选择还在被网红、KOL&amp;nbsp;以及各种网络舆论引导着。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	以喜茶为例，虽然已经在广东地区深耕数年，但这次上海排队事件可算是引爆了品牌在社交网络上的影响力。美妆博主@阿花花酱就曾在微博上说，近期的最大愿望就是喝到喜茶。就连王励勤都加入了喜茶大军，说球迷送的这杯在上海要排五个小时的茶，“没来得及拿银针测，回房间一口气喝完了。”
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	&lt;img src=&quot;http://uppic.fd.zol-img.com.cn/t_s640x2000/g5/M00/0C/01/ChMkJljy0WuICMP8AAEU6Q6EsTgAAbsfAGZBYQAARUB560.jpg&quot; class=&quot;subscibe-img&quot; /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	如今能在朋友圈晒出一杯喜茶，已经变成了一种“赤裸裸的炫耀”。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	当越来越多的人在网上晒出“芝士莓莓”、“芝士芒芒”、“金凤茶王”等王牌产品之后，更多还没买到的人坐不住了。他们一点儿也不担心要排上几个小时，无论是在喜茶的官方账号下，还是在各大社交网络平台上，都有他们呐喊的声音：“喜茶什么时候可以开到我们这里来？”
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	换句话说，大排长龙并没有没有吓退消费者，反而让更多的人对这杯小小的奶盖茶饮产生了好奇。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	&lt;img src=&quot;http://uppic.fd.zol-img.com.cn/t_s640x2000/g5/M00/0C/01/ChMkJ1jy0WyIdXQ0AAJpAQUy4c4AAbsfAGcHlAAAmkZ220.jpg&quot; class=&quot;subscibe-img&quot; /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;text-align:center;font-family:&amp;quot;&quot;&gt;
+	（图片来自：喜茶）
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	在计划经济时代，排队买东西背后是资源的稀缺，数量有限，先到先得。但是到了市场经济时代，物资丰富了，人们有了更多的选择，本不应该再被排队所困扰，却有更多的人放着不用排队的东西不买，跑去等上好几个小时。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	从前的被迫排队，到现在变成了主动选择。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	从需求的角度来看，这也算是当下时髦的“消费升级”。原来可能只追求吃饱，现在人们还要吃好。再有点高追求的，还要吃得巧、吃得妙、吃出品味和身份。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	在这个时代，吃饭早就不再是吃东西本身，吃的都是食物之上的附加价值。而对喜茶这样的网红小吃而言，排队也不再只是排队，变成了一种类似于朝圣的消费仪式。
+&lt;/p&gt;
+&lt;h3 style=&quot;color:#333333;font-family:&amp;quot;&quot;&gt;
+	排队买个奶茶而已，还扯上了焦虑症
+&lt;/h3&gt;
+&lt;blockquote style=&quot;color:#999999;font-family:&amp;quot;font-size:16px;&quot;&gt;
+	&lt;p style=&quot;text-indent:2em;font-style:italic !important;&quot;&gt;
+		等待能让产品增值，而增加的价值会让人们在排队时更有耐心。
+	&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	美国芝加哥大学行为科学教授&amp;nbsp;Ayelet&amp;nbsp;Fishbach&amp;nbsp;在研究排队现象时有了这样的发现。换句话说，排队能让产品变得更值得排队。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	有不少人是的确是因为真心喜欢，觉得喜茶“用料实在、美味可口”而去排的队。在长时间的等待之后，他们拿到手的美食更显珍贵，对味道的期待值也会空前提升。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	&lt;img src=&quot;http://uppic.fd.zol-img.com.cn/t_s640x2000/g5/M00/0C/01/ChMkJ1jy0WyIWH6ZAAGJkkZySlcAAbsfAGeh2kAAYmq489.jpg&quot; class=&quot;subscibe-img&quot; /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;text-align:center;font-family:&amp;quot;&quot;&gt;
+	（图片来自：喜茶）
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	但对大部分人来说，当花费大量的时间在排队上时，他们付出的成本已经远超产品本身的价值。这一部分多出来的成本，需要产品提供更多的附加价值，才能让消费者感到满足。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	对于网红美食而言，这些附加价值体现在限量销售、名人效应等方面；而另一种更具时代特征的附加价值，是它们能够提供的社交体验。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	有的人排了好几小时的队才买到一杯喜茶，但他/她的照片却获得了朋友圈的盛赞；有的人本来在微博上籍籍无名，因为晒了网红美食的照片，就引来好多人的询问互动，还因此涨了一些粉。对他们来说，这些等待的时间是值得的。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	因此就像前文所说的，追网红美食的可能真的是同一批人。他们在当代众多的“焦虑症”中，患上了一种叫做“存在焦虑症”的病。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	2013&amp;nbsp;年，牛津词典曾收录“FOMO”，即&amp;nbsp;Fear&amp;nbsp;of&amp;nbsp;Missing&amp;nbsp;Out（害怕错过）一词。它反映了在社交网络时代，人们愈加严重的“存在焦虑症”。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	&lt;img src=&quot;http://uppic.fd.zol-img.com.cn/t_s640x2000/g5/M00/0C/01/ChMkJljy0WuIVQuaAAHa5CwsXfkAAbsfAGgERMAAdr8925.jpg&quot; class=&quot;subscibe-img&quot; /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;text-align:center;font-family:&amp;quot;&quot;&gt;
+	（图片来自：&lt;span class=&quot;irc_ho&quot;&gt;&lt;a class=&quot;_ZR irc_hol i3724&quot; href=&quot;https://www.theodysseyonline.com/product-the-fomo-generation&quot; target=&quot;_blank&quot;&gt;The&amp;nbsp;Odyssey&amp;nbsp;Online&lt;/a&gt;）&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	当人们在用社交网络为自己打造理想中的形象时，不可避免地陷入到社交网络的漩涡之中。“有没有错过什么网络热点？我发的段子别人觉得有意思吗？为什么没人给我点赞？”
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	渴望被认可、被赞许、被接纳，讨厌被遗忘、被忽视、被排斥。在这个时代，人们需要不停地为自己找寻存在感。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	有人把自己捧成了段子手，有人用自拍美照装点门面，但相比“突出”，很多人更害怕“落伍”和“与众不同”。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	身边的小伙伴都在玩&lt;a href=&quot;http://sj.zol.com.cn/wangzherongyao/&quot; class=&quot;hui14_line&quot;&gt;王者荣耀&lt;/a&gt;，为了跟他们有共同话题，我也玩吧；大家都在看《人民的名义》，我也得看看到底讲了什么；大家都喝了喜茶晒了照片，我也得去买一杯尝尝。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	&lt;img src=&quot;http://uppic.fd.zol-img.com.cn/t_s640x2000/g5/M00/0C/01/ChMkJljy0WuIRe24AAK38MjaBWsAAbsfAGh7A8AArgI796.jpg&quot; class=&quot;subscibe-img&quot; /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;text-align:center;font-family:&amp;quot;&quot;&gt;
+	（图片来自：&lt;span class=&quot;irc_ho&quot;&gt;&lt;a class=&quot;_ZR irc_hol i3724&quot; href=&quot;https://buzzorange.com/techorange/2012/11/05/rebuzz-change-people-s-behavior-only-needs-to-change-a-word/&quot; target=&quot;_blank&quot;&gt;BuzzOrange&lt;/a&gt;）&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	说到底，这种“你有我也得有”的跟风心态是“网红们”能够火起来的源动力。社交网络上关于网红美食的文章越多，人们的“存在焦虑症”就越严重，也越想去“拔草”。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	再加上买一杯奶茶、一份点心的价格也不算贵，用可以接受的花费来换取对自己“存在焦虑症”的纾解，看上去还是划算的。至于排队，排了队才更能体现出自己的价值啊。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	喜茶好不好喝？好喝。那值不值得排&amp;nbsp;4、5&amp;nbsp;个小时去买？讲真，这就真的因人而异了。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	从实用主义者的角度来看，为了一杯奶茶去排队几个小时，可能纯粹是浪费时间；但对于有闲有钱又焦虑着的人们来说，时间并不是敏感因素，而一杯奶茶能给他们带来的，也绝非只是一杯奶茶那么简单。
+&lt;/p&gt;
+&lt;h3 style=&quot;color:#333333;font-family:&amp;quot;&quot;&gt;
+	你排过最长的队，可能是商家的套路
+&lt;/h3&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	当排队已经变成网红美食的标配，除了消费者的自发选择之外，排队也是商家最常用的一种营销策略。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	比如说星巴克就采用了横向的排队方式。在这种动线设计下，消费者的视线不会被前面的顾客遮挡，可以无障碍地获取菜单信息。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	&lt;img src=&quot;http://uppic.fd.zol-img.com.cn/t_s640x2000/g5/M00/0C/01/ChMkJljy0WyISVu5AAIF-xlbcKkAAbsfAGkpBcAAgYT122.jpg&quot; class=&quot;subscibe-img&quot; /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;text-align:center;font-family:&amp;quot;&quot;&gt;
+	（图片来自：&lt;span class=&quot;irc_ho&quot;&gt;&lt;a class=&quot;_ZR irc_hol i3724&quot; href=&quot;https://www.thesun.co.uk/living/2844881/skip-starbucks-queue/&quot; target=&quot;_blank&quot;&gt;The&amp;nbsp;Sun&lt;/a&gt;）&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	同时，消费者沿着柜台横向排队，接单、制作和出品这三个主要流程都处在他们的观察之下，可以营造出一种品质有保障的感觉；充分利用横向的动线来陈列商品，也能提升消费者的购物兴趣。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	这样的设计与星巴克的价值导向也保持一致。倡导“第三空间”的星巴克，一直致力于为消费者打造一个有别于办公场所、家庭之外的休闲空间。横向排队能够让消费者看到彼此的表情，为他们提供了相互交流的机会，以缓解等待过程中的无聊。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	而麦当劳却采用了相反的纵向排队队列，它能够提醒消费者尽快做出决定、提高点单效率；也能营造出一种热闹、快节奏的氛围，符合快餐店的定位。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	&lt;img src=&quot;http://uppic.fd.zol-img.com.cn/t_s640x2000/g5/M00/0C/01/ChMkJ1jy0W2IeUtMAAIDLnLCnz0AAbsfAGmqioAAgNG976.jpg&quot; class=&quot;subscibe-img&quot; /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;text-align:center;font-family:&amp;quot;&quot;&gt;
+	（图片来自：&lt;span class=&quot;irc_ho&quot;&gt;&lt;a class=&quot;_ZR irc_hol i3724&quot; href=&quot;https://www.thesun.co.uk/money/3279350/mcdonalds-has-an-app-and-it-means-youll-never-need-to-queue-again/&quot; target=&quot;_blank&quot;&gt;The&amp;nbsp;Sun&lt;/a&gt;）&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	除了排队动线设计，排队经济中被应用最广泛的就是“饥饿营销”了。通过控制消费者入场数量或者产品的供给，可以塑造出一种“产品非常抢手”的形象。再利用点人们的好奇心和从众心理，可能会产生非常好的营销效果。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	海底捞这个曾经的“网红”代表，就利用排队经济成功地“套路”了消费者。在消费者因为长时间的排队等待而放弃一家餐厅时，海底捞用免费的饮料、零食，甚至还有美甲服务留住了顾客，还因此吸引了一大批为了尝鲜而来的新客户。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	不过也有些商家在用排队营销这个大招时，太过简单粗暴，往往会招致消费者的反感。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	刚开始被爆排队时，喜茶也曾被质疑过是否是炒作和饥饿营销，网络上还流传出喜茶雇人排队的传言。一时间，大家众说纷纭。有忠实粉丝为喜茶辩护的，也有“知情人士”爆料内幕的，不过讨论归讨论，喜茶门前的队列还是那么长。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	&lt;img src=&quot;http://uppic.fd.zol-img.com.cn/t_s640x2000/g5/M00/0C/01/ChMkJljy0W-IJMFVAADNhwo9xFQAAbsfAGsoxQAAM2f769.jpg&quot; class=&quot;subscibe-img&quot; /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	面对质疑，喜茶自己是感觉“委屈”的。先是表示绝对没有雇佣黄牛排队，还曾经采取标记顺序排号、限购等措施来遏制黄牛；在近日发布的公告中，喜茶还透露，此前大排长龙的上海来福士店和美罗城店的单店日出杯量已经达到了&amp;nbsp;3000&amp;nbsp;杯以上，不过仍然难以满足每日的需求量。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	&lt;img src=&quot;http://uppic.fd.zol-img.com.cn/t_s640x2000/g5/M00/0C/01/ChMkJljy0W-ICIxkAAGMtitZ9sIAAbsfAGtcLMAAYzO649.jpg&quot; class=&quot;subscibe-img&quot; /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;text-align:center;font-family:&amp;quot;&quot;&gt;
+	（图片来自：喜茶）
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	广设新店是喜茶给出的解决方案。他们表示，除了现有的店面，接下来还将在全国更多的城市开设新店，“让大家都能愉快优雅地喝上一杯喜茶。”
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	能不能“愉快优雅地喝上”尚且不知，不过对于已经在商家的套路中摸爬滚打多年的消费者来说，“网红”来得太快就像龙卷风，但往往也会像龙卷风一样快速过气。当你捧起一杯芝士莓莓时，还记得大明湖畔的熊猫奶盖吗？
+&lt;/p&gt;
+&lt;p style=&quot;font-size:16px;color:#333333;font-family:&amp;quot;&quot;&gt;
+	所以，无论是对消费者还是对商家来说，都别轻易被排队的热潮蒙蔽双眼，真诚地做出好的产品就不愁没人来买，耐心等待也早晚都能享受到。谁知道呢？也许下一家喜茶就开在你家门口。
+&lt;/p&gt;',`type`='1',`time`='2017-04-13 01:27:50',`hot_degress`='9',`state`='1' WHERE `id` = 3 [ RunTime:0.0779s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000376s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\49151893d6377102907c21f922b290e8.php 第 63 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\49151893d6377102907c21f922b290e8.php 第 68 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\49151893d6377102907c21f922b290e8.php 第 73 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\49151893d6377102907c21f922b290e8.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013146s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013389s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000853s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001087s ]
+
+[ 2017-07-10T21:19:24+08:00 ] 223.85.221.220 /ontheroad/index.php/WeChat/MyCenter/indexForMulti/type/2/typeName/%E6%97%85%E6%B8%B8%E6%89%8B%E5%86%8C
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001097s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_document_for_multi` [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `d_document_for_multi` WHERE `type` = 2 AND `state` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `d_document_for_multi` WHERE `type` = 2 AND `state` = 1 ORDER BY time desc LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `d_document_for_multi` [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000382s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\8b0f194200b280b8ba2656fbb6904a7e.php 第 59 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\8b0f194200b280b8ba2656fbb6904a7e.php 第 64 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\8b0f194200b280b8ba2656fbb6904a7e.php 第 69 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\8b0f194200b280b8ba2656fbb6904a7e.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016076s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016316s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000843s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000866s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001101s ]
+
+[ 2017-07-10T21:19:25+08:00 ] 223.85.221.220 /ontheroad/index.php/WeChat/MyCenter/indexForSingle/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001131s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_document` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `d_document` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000374s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 47 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 52 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 57 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012727s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000899s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001133s ]
+
+[ 2017-07-10T21:19:34+08:00 ] 101.226.33.228 /ontheroad/index.php/WeChat/MyCenter/indexForMulti/type/2/typeName/%E6%97%85%E6%B8%B8%E6%89%8B%E5%86%8C
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001107s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_document_for_multi` [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `d_document_for_multi` WHERE `type` = 2 AND `state` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `d_document_for_multi` WHERE `type` = 2 AND `state` = 1 ORDER BY time desc LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `d_document_for_multi` [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000416s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\8b0f194200b280b8ba2656fbb6904a7e.php 第 59 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\8b0f194200b280b8ba2656fbb6904a7e.php 第 64 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\8b0f194200b280b8ba2656fbb6904a7e.php 第 69 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\8b0f194200b280b8ba2656fbb6904a7e.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016627s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016864s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000900s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001131s ]
+
+[ 2017-07-10T21:19:35+08:00 ] 101.226.65.102 /ontheroad/index.php/WeChat/MyCenter/indexForSingle/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001128s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_document` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `d_document` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000402s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 47 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 52 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 57 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012838s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000879s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000921s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001164s ]
+
+[ 2017-07-10T21:19:37+08:00 ] 223.85.221.220 /ontheroad/index.php/WeChat/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_banner` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `d_banner`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `d_room_type` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `d_room_type` WHERE ( state=1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000402s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 131 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 136 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 141 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\317f4246c65ee10eb172c03e33766d1b.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019113s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019362s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000877s ]
+
+[ 2017-07-10T21:19:39+08:00 ] 117.176.255.216 /ontheroad/index.php/WeChat/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001124s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined variable: option C:\wamp\www\ontheroad\Application\WeChat\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `d_banner` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `d_banner`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000389s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 89 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 94 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 99 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\743d6aeb7cb9b131796a0f1e666d468b.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016144s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016390s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001397s ]
+
+[ 2017-07-10T21:19:46+08:00 ] 117.176.255.216 /ontheroad/index.php/WeChat/Regist/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] include(../lib/WxPay.Api.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\WxPay.JsApiPay.php 第 2 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '../lib/WxPay.Api.php' for inclusion (include_path='.;C:\php\pear') C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\WxPay.JsApiPay.php 第 2 行.
+NOTIC: [2] include(../lib/WxPay.Notify.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\notify.php 第 9 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '../lib/WxPay.Notify.php' for inclusion (include_path='.;C:\php\pear') C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\notify.php 第 9 行.
+
+[ 2017-07-10T21:19:51+08:00 ] 117.176.255.216 /ontheroad/index.php/WeChat/Regist/Index.html?code=012OLHfW1ozX6T0xRjfW1zeEfW1OLHf-&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001109s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] include(../lib/WxPay.Api.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\WxPay.JsApiPay.php 第 2 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '../lib/WxPay.Api.php' for inclusion (include_path='.;C:\php\pear') C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\WxPay.JsApiPay.php 第 2 行.
+NOTIC: [2] include(../lib/WxPay.Notify.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\notify.php 第 9 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '../lib/WxPay.Notify.php' for inclusion (include_path='.;C:\php\pear') C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\notify.php 第 9 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000405s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010981s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011249s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000843s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000992s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001227s ]
+
+[ 2017-07-10T21:19:57+08:00 ] 101.226.66.181 /ontheroad/index.php/WeChat/Regist/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001092s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] include(../lib/WxPay.Api.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\WxPay.JsApiPay.php 第 2 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '../lib/WxPay.Api.php' for inclusion (include_path='.;C:\php\pear') C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\WxPay.JsApiPay.php 第 2 行.
+NOTIC: [2] include(../lib/WxPay.Notify.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\notify.php 第 9 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '../lib/WxPay.Notify.php' for inclusion (include_path='.;C:\php\pear') C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\notify.php 第 9 行.
+
+[ 2017-07-10T21:19:59+08:00 ] 101.226.33.223 /ontheroad/index.php/WeChat/Regist/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] include(../lib/WxPay.Api.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\WxPay.JsApiPay.php 第 2 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '../lib/WxPay.Api.php' for inclusion (include_path='.;C:\php\pear') C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\WxPay.JsApiPay.php 第 2 行.
+NOTIC: [2] include(../lib/WxPay.Notify.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\notify.php 第 9 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '../lib/WxPay.Notify.php' for inclusion (include_path='.;C:\php\pear') C:\wamp\www\ontheroad\ThinkPHP\Library\Org\WxPay\WxpayAPIV3\example\notify.php 第 9 行.
+
+[ 2017-07-10T21:29:16+08:00 ] 101.226.33.217 /ontheroad/index.php/WeChat/MyCenter/indexForSingle/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001146s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ontheroad\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `d_document` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `d_document` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000410s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 47 行.
+NOTIC: [8] Use of undefined constant order - assumed 'order' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 52 行.
+NOTIC: [8] Use of undefined constant around - assumed 'around' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 57 行.
+NOTIC: [8] Use of undefined constant myCenter - assumed 'myCenter' C:\wamp\www\ontheroad\Application\Runtime\Cache\WeChat\172ebb0adad50d28d30fc8ea735d4d9f.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013167s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000904s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001175s ]
+

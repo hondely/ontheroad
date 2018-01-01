@@ -1,0 +1,42 @@
+<include file="Public:header"/>
+
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/WeChat/css/aui-slide.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/WeChat/css/order/style.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/common/css/wp-color.css" />
+
+<header id="header" class="aui-bar aui-bar-nav aui-bar-light">
+    <a href="javascript:history.back(1);" class="aui-pull-left aui-btn">
+        <span class="aui-iconfont aui-icon-left"></span>
+    </a>
+    <div  class="aui-title ">{$typeName}</div>
+    <a href="javascript:history.back(1);" class="aui-pull-right aui-btn">
+        <span class="aui-iconfont aui-icon-like wp-color-pink"></span>
+    </a>
+</header>
+
+<div id="content"  class="aui-content aui-margin-b-15" >
+    <div >
+        <div id="infoContent" class="wp-bg-white wp-pandding-a-15 wp-kindeditor-content">
+            <h1>{$info.title}</h1>
+            <p class="wp-color-silver">
+                {$info.time}
+                <span class="wp-color-silver aui-iconfont aui-icon-like">{$info.hot_degress}</span>
+            </p>
+            {$info.content}
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="__PUBLIC__/WeChat/js/jquery.min.js" ></script>
+<script type="text/javascript" src="__PUBLIC__/WeChat/js/aui-slide.js"></script>
+<script>
+//    var imgList=$('#infoContent img');
+//    var length=imgList.length;
+//    for(var i=0;i<length;i++){
+//        imgList[i].addEventListener("click", function() {
+//            wpBase.href(this.src);
+//        });
+//    }
+</script>
+
+<include file="Public:footer"/>
